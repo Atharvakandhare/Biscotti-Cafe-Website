@@ -1,0 +1,52 @@
+/* Header Styles */
+header {
+    background-color: #6b4f31;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Navigation Styles */
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 16px; /* Adjust font size as needed */
+}
+
+nav a.active {
+    font-weight: bold;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a {
+        margin: 10px 0;
+    }
+}
+
+header {
+    background-color: #6b4f31;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+}
+
+nav a.active {
+    font-weight: bold;
+}

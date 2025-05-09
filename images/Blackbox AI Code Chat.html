@@ -1,0 +1,2261 @@
+<!DOCTYPE html>
+<!-- saved from url=(0031)https://www.useblackbox.io/chat -->
+<html data-wf-page="648b4769eea9e32297b613e4" data-wf-site="647b75407a16be15a82901be" class="w-mod-js w-mod-ix wf-inter-n8-active wf-inter-n7-active wf-inter-n4-active wf-inter-n9-active wf-inter-n2-active wf-inter-n6-active wf-inter-n3-active wf-inter-n5-active wf-inconsolata-n4-active wf-inconsolata-n7-active wf-sourcecodepro-n7-active wf-sourcecodepro-n6-active wf-sourcecodepro-n4-active wf-sourcecodepro-n9-active wf-active"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style>.wf-force-outline-none[tabindex="-1"]:focus{outline:none;}</style>
+  
+  <title>Blackbox AI Code Chat</title>
+  <meta content="Enhance your coding experience with our powerful AI assistant tool and AI Code Chat - the ultimate companion for programmers. With intelligent suggestions, code completion, and error detection, our tool accelerates software development. With Blackbox you get coding support, AI, intelligent automation, error detection, code completion, and programming efficiency to optimize productivity and streamline your coding workflow.;" name="description">
+  <meta content="Blackbox" property="og:title">
+  <meta content="Enhance your coding experience with our powerful AI assistant tool and AI Code Chat - the ultimate companion for programmers. With intelligent suggestions, code completion, and error detection, our tool accelerates software development. With Blackbox you get coding support, AI, intelligent automation, error detection, code completion, and programming efficiency to optimize productivity and streamline your coding workflow.;" property="og:description">
+  <meta content="https://uploads-ssl.webflow.com/647b75407a16be15a82901be/64dd48afff3323e55bb2175f_Feature%20Showcase%20-%20Blackbox%20AI%20Code%20Chat.png" property="og:image">
+  <meta content="Blackbox" property="twitter:title">
+  <meta content="Enhance your coding experience with our powerful AI assistant tool and AI Code Chat - the ultimate companion for programmers. With intelligent suggestions, code completion, and error detection, our tool accelerates software development. With Blackbox you get coding support, AI, intelligent automation, error detection, code completion, and programming efficiency to optimize productivity and streamline your coding workflow.;" property="twitter:description">
+  <meta content="https://uploads-ssl.webflow.com/647b75407a16be15a82901be/64dd48afff3323e55bb2175f_Feature%20Showcase%20-%20Blackbox%20AI%20Code%20Chat.png" property="twitter:image">
+  <meta property="og:type" content="website">
+  <meta content="summary_large_image" name="twitter:card">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta content="Webflow" name="generator">
+  <link href="./Blackbox AI Code Chat_files/new-chat-normalize.css" rel="stylesheet" type="text/css">
+  <link href="./Blackbox AI Code Chat_files/new-chat-webflow.css" rel="stylesheet" type="text/css">
+  <link href="./Blackbox AI Code Chat_files/new-chat-css.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/" rel="preconnect">
+  <link href="https://fonts.gstatic.com/" rel="preconnect" crossorigin="anonymous">
+  <script src="./Blackbox AI Code Chat_files/webfont.js.download" type="text/javascript"></script>
+  <link rel="stylesheet" href="./Blackbox AI Code Chat_files/css" media="all"><script type="text/javascript">WebFont.load({  google: {    families: ["Inconsolata:400,700","Inter:200,300,regular,500,600,700,800,900","Source Code Pro:regular,600,700,900"]  }});</script>
+  <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
+  <link href="https://www.useblackbox.io/style/images/favicon.svg" rel="shortcut icon" type="image/x-icon">
+  <link href="https://www.useblackbox.io/new-chat-images/webclip.png" rel="apple-touch-icon">
+  <link rel="stylesheet" href="./Blackbox AI Code Chat_files/codemirror.min.css" integrity="sha512-xIf9AdJauwKIVtrVRZ0i4nHP61Ogx9fSRAkCLecmE2dL/U8ioWpDvFCAy4dcfecN72HHB9+7FfQj3aiO68aaaw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <script src="./Blackbox AI Code Chat_files/codemirror.min.js.download" integrity="sha512-i9pd5Q6ntCp6LwSgAZDzsrsOlE8SN+H5E0T5oumSXWQz5l1Oc4Kb5ZrXASfyjjqtc6Mg6xWbu+ePbbmiEPJlDg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="./Blackbox AI Code Chat_files/javascript.min.js.download"></script>
+  <script src="./Blackbox AI Code Chat_files/css.min.js.download"></script>
+  <script src="./Blackbox AI Code Chat_files/xml.min.js.download"></script>
+  <script src="./Blackbox AI Code Chat_files/htmlmixed.min.js.download"></script>
+  <!--  This is for code syntax highlighting, and can be ignored.  -->
+  <link rel="stylesheet" href="./Blackbox AI Code Chat_files/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous">
+  <style>
+ /*General Scrollbar Styling */
+ ::-webkit-scrollbar {
+     width: 5px;
+ }
+::-webkit-scrollbar-track {
+     background-color: rgba(0, 0, 0, .05);
+     -webkit-border-radius: 5px;
+     border-radius: 5px;
+ }
+ ::-webkit-scrollbar-thumb {
+     -webkit-border-radius: 5px;
+     border-radius: 5px;
+     background: #515151;
+ }
+.CodeMirror {
+	height: 100% !important;
+}
+:root {
+  --color1: #a5d6ff;
+  --color2: #ececec;
+  --color3: #eee;
+  --color4: #ff7b72;
+  --color5: #ffb86c;
+  --color6: #f99393;
+  --color7: #ececec;
+  --color-faded: #605C7B;
+}
+.cm-s-dracula .CodeMirror-gutters,
+.cm-s-dracula.CodeMirror {
+  background-color: transparent !important;
+  color: var(--color7) !important;
+  border: none;
+}
+.cm-s-dracula .CodeMirror-gutters {
+  /* MY UI CARD COLOR */
+  color: #131313;
+}
+.cm-s-dracula .CodeMirror-cursor {
+  border-left: solid thin var(--color7);
+}
+.cm-s-dracula .CodeMirror-linenumber {
+  color: var(--color-faded);
+}
+.cm-s-dracula .CodeMirror-selected {
+  background: rgba(255, 255, 255, 0.1);
+}
+.cm-s-dracula .CodeMirror-line::selection,
+.cm-s-dracula .CodeMirror-line > span::selection,
+.cm-s-dracula .CodeMirror-line > span > span::selection {
+  background: rgba(255, 255, 255, 0.1);
+}
+.cm-s-dracula .CodeMirror-line::-moz-selection,
+.cm-s-dracula .CodeMirror-line > span::-moz-selection,
+.cm-s-dracula .CodeMirror-line > span > span::-moz-selection {
+  background: rgba(255, 255, 255, 0.1);
+}
+.cm-s-dracula span.cm-comment {
+  color: var(--color-faded);
+}
+.cm-s-dracula span.cm-string,
+.cm-s-dracula span.cm-string-2 {
+  color: var(--color3);
+}
+.cm-s-dracula span.cm-number {
+  color: var(--color6);
+}
+.cm-s-dracula span.cm-variable {
+  color: var(--color1);
+}
+.cm-s-dracula span.cm-variable-2 {
+  color: var(--color7);
+}
+.cm-s-dracula span.cm-def {
+  color: var(--color1);
+}
+.cm-s-dracula span.cm-operator {
+  color: var(--color2);
+}
+.cm-s-dracula span.cm-keyword {
+  color: var(--color2);
+}
+.cm-s-dracula span.cm-atom {
+  color: var(--color6);
+}
+.cm-s-dracula span.cm-meta {
+  color: var(--color7);
+}
+.cm-s-dracula span.cm-tag {
+  color: var(--color2);
+}
+.cm-s-dracula span.cm-attribute {
+  color: var(--color1);
+}
+.cm-s-dracula span.cm-qualifier {
+  color: var(--color1);
+}
+.cm-s-dracula span.cm-property {
+  color: var(--color4);
+}
+.cm-s-dracula span.cm-builtin {
+  color: var(--color1);
+}
+.cm-s-dracula span.cm-type,
+.cm-s-dracula span.cm-variable-3 {
+  color: var(--color5);
+}
+.cm-s-dracula .CodeMirror-activeline-background {
+  background: rgba(255, 255, 255, 0.1);
+}
+.cm-s-dracula .CodeMirror-matchingbracket {
+  text-decoration: underline;
+  color: var(--color7) !important;
+}
+.tabcontainer::-webkit-scrollbar {
+     height: 1px;
+ }
+.tabcontainer::-webkit-scrollbar-thumb {
+     -webkit-border-radius: 5px;
+     border-radius: 5px;
+     background: rgba(0, 0, 0, 0.05);
+ }
+
+ .chat-message{
+	display:block;
+ }
+
+ .bottom-holder{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+ }
+
+.quality-toaster{
+	height: 40px;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #474747;
+    border-radius: 8px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 10px;
+    display: flex;
+	margin:32px 0
+}
+.toaster-text{
+	color: rgba(255, 255, 255, .9);
+    text-align: left;
+    letter-spacing: .2px;
+    word-break: break-all;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-size: 16px;
+    line-height: 24px;
+}
+.toaster-icon {
+	opacity: .4;
+    padding: 2px;
+	width: 20px;
+    height: 20px;
+    max-width: none;
+	cursor: pointer;
+}
+.toaster-icon:hover {
+	opacity: 1;
+}
+.icons-holder{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap:20px;
+}
+.success-icon{
+	display:none
+}
+.icons-holder.active .toaster-icon{
+	display:none
+}
+.icons-holder.active .success-icon{
+	display:block
+}
+
+.button-holder-feedback{
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	flex-shrink: 0;
+	justify-content: left;
+	padding-top:16px;
+}
+
+.button-holder{
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	flex-shrink: 0;
+	justify-content: center;
+	padding-top:16px;
+}
+
+.beside-btn{
+	padding: 8px;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: 0.3s ease all;
+	margin: 0;
+	background-color: transparent;
+	border: 1px solid #444;
+	display: none;
+	text-align: center;
+	color: #eee
+}
+.beside-btn.active{
+	display:block;
+}
+
+.beside-btn:hover {
+	opacity: 0.5;
+}
+
+.typing{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-style: italic;
+	gap:5px;
+}
+.code-snippet-holder {
+	position: relative;
+	margin-top: 10px;
+	padding-left: 10px;
+	transition: all 0.3s ease 0s;
+	border-radius: 5px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: rgb(96 96 96 / 0%);
+	border-image: initial;
+	padding-top:25px;
+	background: #1a1c24;
+	font-size: 14.5px;
+}
+.top-code-bar {
+	position: absolute;
+	right: 0px;
+	z-index: 2;
+	display: flex;
+	align-items: center;
+	opacity: 0;
+	margin: 6px;
+	gap: 5px;
+	transition:0.3s ease all;
+	top:0;
+	cursor: pointer;
+	height:20px;
+}
+.option-top-holder{
+	display: flex;
+	align-items: center;
+	gap: 5px;
+}
+.option-text {
+	display: none;
+	margin-right: 5px;
+	font-size: 10px!important;
+	color: #a7b5c4;
+	line-height: 11px;
+}
+.option-text.active {
+	display: block;
+}
+.option-img {
+	width: 15px;
+	cursor: pointer;
+}
+.code-snippet-holder:hover .top-code-bar {
+	opacity: 1;
+}
+.typing-loading{
+	margin-top:7px;
+	width:20px;	
+}
+
+.CodeMirror {
+	height: auto;
+	background-color: transparent !important;
+}
+.CodeMirror-gutters {
+	background-color: transparent !important;
+	border-right: 0 !important;
+}
+.CodeMirror-linenumbers {
+	padding-right: 20px;
+}
+
+.chatMessage .CodeMirror-sizer{
+	margin-left: 0px!important;
+}
+.CodeMirror-hscrollbar{
+	height: 0px;
+}
+.chatMessage .CodeMirror-linenumber.CodeMirror-gutter-elt{
+	display: flex;
+	justify-content: flex-start;
+	padding: 0;
+}
+
+.starter-text{
+	cursor: pointer;
+}
+
+.suggestion-container {
+  display: flex;
+}
+.suggestions-wrapper {
+  display: flex;
+  gap: 10px;
+  margin: 0 auto;
+  margin-right: 0;
+}
+
+.suggestion-text{
+	cursor: pointer;
+}
+
+.copy-text{
+	display:none;
+}
+.copy-text.active{
+	display:block;
+}
+.top-code-bar img{
+	width:15px;
+}
+
+.chat-string{
+	white-space: pre-line;
+}
+
+a{
+	color:#eee;
+}
+
+
+.image-preview-holder {
+  color: #888;
+  display: none;
+  background-color: #191c24;
+}
+  .image-preview-holder.active {
+  display: block;
+}
+.img-holder{
+  border-radius: 10px;
+  max-width: 100px;
+  max-height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.remove-image{
+  padding: 5px;
+  cursor: pointer;
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  right: 3px;
+  color: #fff;
+}
+
+#upload-file-name {
+  margin-left: 21px;
+  color: #888;
+}
+
+.icon-24{
+	cursor: pointer;
+}
+.send-message{
+	resize: none;
+	height: 42px !important;
+	max-height:300px;
+	border-radius: 20px;
+	box-shadow: 32px -24px 50px rgba(0, 0, 0, .5), 0 0 100px rgba(87, 128, 226, .7), 0 2px 18px rgba(112, 153, 251, .5);
+}
+.text-block-10{
+	white-space: break-spaces;
+}
+
+.start-text *{
+	white-space: break-spaces;
+}
+.chatlog-container {
+    height: 100%;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    text-align: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 20px;
+    display: flex;
+    position: relative;
+    overflow: auto;
+}
+.div-block-115 {
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    flex-direction: column;
+    padding: 16px;
+    display: flex;
+}
+.vscode-chartbox {
+	margin:0;
+}
+.chat-field-vscode{
+	white-space: break-spaces;
+}
+.chat-string{
+	white-space: break-spaces;
+	line-height: 1.5;
+	font-size: 16px;
+}
+.chat-field-vscode {
+    z-index: 9;
+    height: auto;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    background-color: #191c24;
+    flex-direction: column;
+    align-self: stretch;
+    padding: 16px 16px 20px;
+    display: flex;
+    position: relative;
+}
+@media screen and (max-width: 991px){
+	.chat-field-vscode {
+		position: fixed;
+		top: auto;
+		bottom: 0%;
+		left: 0%;
+		right: 0%;
+	}
+}
+@media screen and (max-width: 767px){
+	.chat-field-vscode {
+		z-index: 19;
+	}
+	.send-message{
+		font-size: 16px;
+	}
+}
+@media screen and (max-width: 479px){
+	.chat-field-vscode {
+		margin-left: 0;
+		padding-bottom: 16px;
+		position: fixed;
+		top: auto;
+		bottom: 0%;
+		left: 0%;
+		right: 0%;
+	}
+}
+.chatlog-container {
+    height: 100vh;
+    grid-column-gap: 12px;
+    grid-row-gap: 12px;
+    text-align: center;
+    flex-direction: column;
+    flex: 1;
+    justify-content: flex-start;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 16px;
+    display: flex;
+    position: relative;
+    overflow: auto;
+}
+@media screen and (max-width: 991px){
+	.chatlog-container {
+		width: 100%;
+		align-self: stretch;
+		margin-bottom: 50px;
+	}
+}
+@media screen and (max-width: 767px){
+	.chatlog-container {
+		margin-bottom: 128px;
+		padding: 16px;
+	}
+}
+@media screen and (max-width: 479px){
+	.chatlog-container {
+		height: auto;
+		flex: none;
+		margin-bottom: 0;
+		padding-bottom: 0;
+	}
+	.toaster-text{
+		font-size: 13px;
+	}
+}
+.div-block-69-copy {
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    display: flex;
+    position: relative;
+}
+@media screen and (max-width: 479px){
+	.div-block-69-copy {
+		height: auto;
+	}
+}
+.tab-pane-vscode {
+    height: 100%;
+    background-color: #191c24;
+    padding-top: 0;
+	position: relative;
+    overflow: auto;
+}
+.text-field-copy{
+	padding:8px 20px;
+}
+
+.demo-queries{
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	display: flex;
+}
+.demo-query{
+	margin-left: 20px;
+}
+.demo-query:hover{
+	background-color: #25283100;
+}
+
+@media screen and (max-width: 479px){
+	.tab-pane-vscode {
+		height: auto;
+		padding-bottom: 150px;
+	}
+	.demo-queries{
+		display: block;
+	}
+}
+.form-block.w-form{
+	display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.modal-background-blur {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  z-index: 99999;
+  background-color: rgba(0, 0, 0, .7);
+  display: flex;
+}
+.modal-container-signup {
+  width: 300px;
+  height: 150px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  z-index: 9999;
+  background-color: #1a1c24;
+  position: relative;
+  top: 40%;
+  gap: 18px;
+  border-radius: 10px;
+}
+.modal-generate-code-blur {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  z-index: 99999;
+  background-color: rgba(0, 0, 0, .7);
+  display: flex;
+}
+.modal-container-generate-code {
+  width: 500px;
+  height: 200px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  z-index: 9999;
+  background-color: #1a1c24;
+  position: relative;
+  top: 40%;
+  gap: 18px;
+}
+.upgrade-yellow{
+	background-image: linear-gradient(191deg, #f1dc39 0%, #c96e05 87%);
+}
+
+</style>
+<script src="./Blackbox AI Code Chat_files/client" async="" defer=""></script>
+<meta http-equiv="origin-trial" content="A+N5HpM5gDAUeupaWw3J2yuMrpgH0IC7KtFHAqtmHkW8Vr+dPpJWuOpMNIRh3ybxyoIUKlvDQs7+VGPfYdQ/qQUAAABxeyJvcmlnaW4iOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb206NDQzIiwiZmVhdHVyZSI6IkZlZENtQXV0b1JlYXV0aG4iLCJleHBpcnkiOjE2OTE1MzkxOTksImlzVGhpcmRQYXJ0eSI6dHJ1ZX0="><style id="googleidentityservice_button_styles">.qJTHM{-webkit-user-select:none;color:#202124;direction:ltr;-webkit-touch-callout:none;font-family:"Roboto-Regular",arial,sans-serif;-webkit-font-smoothing:antialiased;font-weight:400;margin:0;overflow:hidden;-webkit-text-size-adjust:100%}.ynRLnc{left:-9999px;position:absolute;top:-9999px}.L6cTce{display:none}.bltWBb{word-break:break-all}.hSRGPd{color:#1a73e8;cursor:pointer;font-weight:500;text-decoration:none}.Bz112c-W3lGp{height:16px;width:16px}.Bz112c-E3DyYd{height:20px;width:20px}.Bz112c-r9oPif{height:24px;width:24px}.Bz112c-uaxL4e{-webkit-border-radius:10px;border-radius:10px}.LgbsSe-Bz112c{display:block}.S9gUrf-YoZ4jf,.S9gUrf-YoZ4jf *{border:none;margin:0;padding:0}.fFW7wc-ibnC6b>.aZ2wEe>div{border-color:#4285f4}.P1ekSe-ZMv3u>div:nth-child(1){background-color:#1a73e8!important}.P1ekSe-ZMv3u>div:nth-child(2),.P1ekSe-ZMv3u>div:nth-child(3){background-image:linear-gradient(to right,rgba(255,255,255,.7),rgba(255,255,255,.7)),linear-gradient(to right,#1a73e8,#1a73e8)!important}.haAclf{display:inline-block}.nsm7Bb-HzV7m-LgbsSe{-webkit-border-radius:4px;border-radius:4px;-webkit-box-sizing:border-box;box-sizing:border-box;-webkit-transition:background-color .218s,border-color .218s;transition:background-color .218s,border-color .218s;-webkit-user-select:none;-webkit-appearance:none;background-color:#fff;background-image:none;border:1px solid #dadce0;color:#3c4043;cursor:pointer;font-family:"Google Sans",arial,sans-serif;font-size:14px;height:40px;letter-spacing:0.25px;outline:none;overflow:hidden;padding:0 12px;position:relative;text-align:center;vertical-align:middle;white-space:nowrap;width:auto}@media screen and (-ms-high-contrast:active){.nsm7Bb-HzV7m-LgbsSe{border:2px solid windowText;color:windowText}}.nsm7Bb-HzV7m-LgbsSe.pSzOP-SxQuSe{font-size:14px;height:32px;letter-spacing:0.25px;padding:0 10px}.nsm7Bb-HzV7m-LgbsSe.purZT-SxQuSe{font-size:11px;height:20px;letter-spacing:0.3px;padding:0 8px}.nsm7Bb-HzV7m-LgbsSe.Bz112c-LgbsSe{padding:0;width:40px}.nsm7Bb-HzV7m-LgbsSe.Bz112c-LgbsSe.pSzOP-SxQuSe{width:32px}.nsm7Bb-HzV7m-LgbsSe.Bz112c-LgbsSe.purZT-SxQuSe{width:20px}.nsm7Bb-HzV7m-LgbsSe.JGcpL-RbRzK{-webkit-border-radius:20px;border-radius:20px}.nsm7Bb-HzV7m-LgbsSe.JGcpL-RbRzK.pSzOP-SxQuSe{-webkit-border-radius:16px;border-radius:16px}.nsm7Bb-HzV7m-LgbsSe.JGcpL-RbRzK.purZT-SxQuSe{-webkit-border-radius:10px;border-radius:10px}.nsm7Bb-HzV7m-LgbsSe.MFS4be-Ia7Qfc{border:none;color:#fff}.nsm7Bb-HzV7m-LgbsSe.MFS4be-v3pZbf-Ia7Qfc{background-color:#1a73e8}.nsm7Bb-HzV7m-LgbsSe.MFS4be-JaPV2b-Ia7Qfc{background-color:#202124;color:#e8eaed}.nsm7Bb-HzV7m-LgbsSe .nsm7Bb-HzV7m-LgbsSe-Bz112c{height:18px;margin-right:8px;min-width:18px;width:18px}.nsm7Bb-HzV7m-LgbsSe.pSzOP-SxQuSe .nsm7Bb-HzV7m-LgbsSe-Bz112c{height:14px;min-width:14px;width:14px}.nsm7Bb-HzV7m-LgbsSe.purZT-SxQuSe .nsm7Bb-HzV7m-LgbsSe-Bz112c{height:10px;min-width:10px;width:10px}.nsm7Bb-HzV7m-LgbsSe.jVeSEe .nsm7Bb-HzV7m-LgbsSe-Bz112c{margin-left:8px;margin-right:-4px}.nsm7Bb-HzV7m-LgbsSe.Bz112c-LgbsSe .nsm7Bb-HzV7m-LgbsSe-Bz112c{margin:0;padding:10px}.nsm7Bb-HzV7m-LgbsSe.Bz112c-LgbsSe.pSzOP-SxQuSe .nsm7Bb-HzV7m-LgbsSe-Bz112c{padding:8px}.nsm7Bb-HzV7m-LgbsSe.Bz112c-LgbsSe.purZT-SxQuSe .nsm7Bb-HzV7m-LgbsSe-Bz112c{padding:4px}.nsm7Bb-HzV7m-LgbsSe .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf{-webkit-border-top-left-radius:3px;border-top-left-radius:3px;-webkit-border-bottom-left-radius:3px;border-bottom-left-radius:3px;display:-webkit-box;display:-webkit-flex;display:flex;justify-content:center;-webkit-align-items:center;align-items:center;background-color:#fff;height:36px;margin-left:-10px;margin-right:12px;min-width:36px;width:36px}.nsm7Bb-HzV7m-LgbsSe .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf .nsm7Bb-HzV7m-LgbsSe-Bz112c,.nsm7Bb-HzV7m-LgbsSe.Bz112c-LgbsSe .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf .nsm7Bb-HzV7m-LgbsSe-Bz112c{margin:0;padding:0}.nsm7Bb-HzV7m-LgbsSe.pSzOP-SxQuSe .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf{height:28px;margin-left:-8px;margin-right:10px;min-width:28px;width:28px}.nsm7Bb-HzV7m-LgbsSe.purZT-SxQuSe .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf{height:16px;margin-left:-6px;margin-right:8px;min-width:16px;width:16px}.nsm7Bb-HzV7m-LgbsSe.Bz112c-LgbsSe .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf{-webkit-border-radius:3px;border-radius:3px;margin-left:2px;margin-right:0;padding:0}.nsm7Bb-HzV7m-LgbsSe.JGcpL-RbRzK .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf{-webkit-border-radius:18px;border-radius:18px}.nsm7Bb-HzV7m-LgbsSe.pSzOP-SxQuSe.JGcpL-RbRzK .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf{-webkit-border-radius:14px;border-radius:14px}.nsm7Bb-HzV7m-LgbsSe.purZT-SxQuSe.JGcpL-RbRzK .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf{-webkit-border-radius:8px;border-radius:8px}.nsm7Bb-HzV7m-LgbsSe .nsm7Bb-HzV7m-LgbsSe-bN97Pc-sM5MNb{display:-webkit-box;display:-webkit-flex;display:flex;-webkit-align-items:center;align-items:center;-webkit-flex-direction:row;flex-direction:row;justify-content:space-between;-webkit-flex-wrap:nowrap;flex-wrap:nowrap;height:100%;position:relative;width:100%}.nsm7Bb-HzV7m-LgbsSe .oXtfBe-l4eHX{justify-content:center}.nsm7Bb-HzV7m-LgbsSe .nsm7Bb-HzV7m-LgbsSe-BPrWId{-webkit-flex-grow:1;flex-grow:1;font-family:"Google Sans",arial,sans-serif;font-weight:500;overflow:hidden;text-overflow:ellipsis;vertical-align:top}.nsm7Bb-HzV7m-LgbsSe.purZT-SxQuSe .nsm7Bb-HzV7m-LgbsSe-BPrWId{font-weight:300}.nsm7Bb-HzV7m-LgbsSe .oXtfBe-l4eHX .nsm7Bb-HzV7m-LgbsSe-BPrWId{-webkit-flex-grow:0;flex-grow:0}.nsm7Bb-HzV7m-LgbsSe .nsm7Bb-HzV7m-LgbsSe-MJoBVe{-webkit-transition:background-color .218s;transition:background-color .218s;bottom:0;left:0;position:absolute;right:0;top:0}.nsm7Bb-HzV7m-LgbsSe:hover,.nsm7Bb-HzV7m-LgbsSe:focus{-webkit-box-shadow:none;box-shadow:none;border-color:#d2e3fc;outline:none}.nsm7Bb-HzV7m-LgbsSe:hover .nsm7Bb-HzV7m-LgbsSe-MJoBVe,.nsm7Bb-HzV7m-LgbsSe:focus .nsm7Bb-HzV7m-LgbsSe-MJoBVe{background:rgba(66,133,244,.04)}.nsm7Bb-HzV7m-LgbsSe:active .nsm7Bb-HzV7m-LgbsSe-MJoBVe{background:rgba(66,133,244,.1)}.nsm7Bb-HzV7m-LgbsSe.MFS4be-Ia7Qfc:hover .nsm7Bb-HzV7m-LgbsSe-MJoBVe,.nsm7Bb-HzV7m-LgbsSe.MFS4be-Ia7Qfc:focus .nsm7Bb-HzV7m-LgbsSe-MJoBVe{background:rgba(255,255,255,.24)}.nsm7Bb-HzV7m-LgbsSe.MFS4be-Ia7Qfc:active .nsm7Bb-HzV7m-LgbsSe-MJoBVe{background:rgba(255,255,255,.32)}.nsm7Bb-HzV7m-LgbsSe .n1UuX-DkfjY{-webkit-border-radius:50%;border-radius:50%;display:-webkit-box;display:-webkit-flex;display:flex;height:20px;margin-left:-4px;margin-right:8px;min-width:20px;width:20px}.nsm7Bb-HzV7m-LgbsSe.jVeSEe .nsm7Bb-HzV7m-LgbsSe-BPrWId{font-family:"Roboto";font-size:12px;text-align:left}.nsm7Bb-HzV7m-LgbsSe.jVeSEe .nsm7Bb-HzV7m-LgbsSe-BPrWId .ssJRIf,.nsm7Bb-HzV7m-LgbsSe.jVeSEe .nsm7Bb-HzV7m-LgbsSe-BPrWId .K4efff .fmcmS{overflow:hidden;text-overflow:ellipsis}.nsm7Bb-HzV7m-LgbsSe.jVeSEe .nsm7Bb-HzV7m-LgbsSe-BPrWId .K4efff{display:-webkit-box;display:-webkit-flex;display:flex;-webkit-align-items:center;align-items:center;color:#5f6368;fill:#5f6368;font-size:11px;font-weight:400}.nsm7Bb-HzV7m-LgbsSe.jVeSEe.MFS4be-Ia7Qfc .nsm7Bb-HzV7m-LgbsSe-BPrWId .K4efff{color:#e8eaed;fill:#e8eaed}.nsm7Bb-HzV7m-LgbsSe.jVeSEe .nsm7Bb-HzV7m-LgbsSe-BPrWId .K4efff .Bz112c{height:18px;margin:-3px -3px -3px 2px;min-width:18px;width:18px}.nsm7Bb-HzV7m-LgbsSe.jVeSEe .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf{-webkit-border-top-left-radius:0;border-top-left-radius:0;-webkit-border-bottom-left-radius:0;border-bottom-left-radius:0;-webkit-border-top-right-radius:3px;border-top-right-radius:3px;-webkit-border-bottom-right-radius:3px;border-bottom-right-radius:3px;margin-left:12px;margin-right:-10px}.nsm7Bb-HzV7m-LgbsSe.jVeSEe.JGcpL-RbRzK .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf{-webkit-border-radius:18px;border-radius:18px}.L5Fo6c-sM5MNb{border:0;display:block;left:0;position:relative;top:0}.L5Fo6c-bF1uUb{-webkit-border-radius:4px;border-radius:4px;bottom:0;cursor:pointer;left:0;position:absolute;right:0;top:0}.L5Fo6c-bF1uUb:focus{border:none;outline:none}sentinel{}</style></head>
+<body class="body-vscode">
+  
+  <div class="page-styles w-embed">
+    <style>
+.copy-code:active .copy-code_text.is-1 {display: none;}
+.copy-code:active .copy-code_text.is-2 {display: block;}
+        .update-image {
+          max-width: 600px;
+        }
+        .file-custom {
+          max-width: 600px;
+          margin: 0 153px 0 17px;
+          position: absolute;
+          top: 108px;
+          right: 0;
+          left: 0;
+          z-index: 5;
+          height: 2.5rem;
+          padding: 0.5rem 1rem;
+          line-height: 1.5;
+          font-size: 14px;
+          font-weight: 500;
+          color: rgb(110 118 135 / 84%);
+          background-color: #262d40;
+          border: 1px solid rgba(255, 255, 255, 0);
+          border-radius: 20px;
+          box-shadow: 32px -24px 50px rgba(0, 0, 0, 0.5), 0 0 100px rgba(87, 128, 226, 0.7), 0 2px 18px rgba(112, 153, 251, 0.5);
+          -webkit-user-select: none;
+          -moz-user-select: none;
+          -ms-user-select: none;
+          user-select: none;
+          cursor: pointer;
+        }
+
+        .file-custom:hover {
+          -webkit-text-fill-color: inherit;
+          background-color: #4a526491;
+          background-clip: border-box;
+          border-width: 1px;
+          border-color: #3f3f3f;
+        }
+
+        .file-custom-before {
+          margin: 0;
+          height: 40px;
+          padding: 0.5rem 18px;
+          color: #fff;
+          border: 1px solid rgba(255, 255, 255, 0);
+          border-radius: 15px;
+          cursor: pointer;
+        }
+
+        #fileInput {
+          display: none;
+          opacity: 0;
+          z-index: 0;
+          width: 86.5%;
+          height: 34px;
+          margin-top: -19px;
+          cursor: pointer;
+        }
+</style>
+  </div>
+  <div class="section-4 wf-section">
+    <div class="navbar-vertical-vscode">
+      <div class="container-6">
+        <div class="navbar-wrapper-3">
+          <div class="div-block-60">
+            <a href="https://www.useblackbox.io/" class="vscode-navbar-logo w-nav-brand"><img src="./Blackbox AI Code Chat_files/logo.png" loading="lazy" alt="Logo Blackbox" class="vscode-logo-navbar"></a>
+          </div>
+          <div class="div-block-61">
+			<div class="div-block-65">
+				<div class="div-block-64">
+				  <div style="cursor: pointer;" class="vscode-button tertiary w-button reset-chat">New Chat</div>
+				  <div class="text-block-7 small" style="margin-top: 12px;">Install the VSCode Extension Here</div>
+				  <div style="cursor: pointer;" onclick="window.open(&#39;https://marketplace.visualstudio.com/items?itemName=Blackboxapp.blackbox&#39;)" class="vscode-button white w-button">Get VSCode Extension</div>
+				  <div style="cursor: pointer; margin-top:10px" onclick="window.open(&#39;https://t.me/BlackboxCodeBot&#39;)" class="vscode-button tertiary w-button">Get Blackbox On Telegram</div>
+				  <div class="wrap">
+					  
+						  
+							<div class="text-block-7 bold">Invite Team</div>
+							<div class="text-block-7 small">Enter a code to join your team</div>
+							<div style="cursor: pointer;" id="invite-button" onclick="open_referral_modal()" class="vscode-button tertiary w-button">Enter Referral Code</div>
+							  <div class="text-block-7 bold">Try Now, Pay Later.</div>
+								<div class="text-block-7 small">Upgrade to paid plan and make you superman in coding!</div>
+						  
+					  
+				  </div>
+				</div>
+			  </div>
+            <div class="div-block-62">
+              <div class="div-block-63"><img src="./Blackbox AI Code Chat_files/chat-code.svg" loading="lazy" alt="" class="image-19">
+                <div class="div-block-64" onclick="displayVideo()" style="cursor: pointer;">
+                  <div class="text-block-7 bold">Code Chat</div>
+                  <div class="text-block-7 small">Turn your question or instruction into code.</div>
+                </div>
+              </div>
+              <div class="div-block-63"><img src="./Blackbox AI Code Chat_files/terminal.svg" loading="lazy" alt="" class="image-19">
+                <div onclick="window.open(`${window.location.origin}/autocomplete`)" class="div-block-64" style="cursor: pointer;">
+                  <div class="text-block-7 bold">Code AutoComplete</div>
+                  <div class="text-block-7 small">Available in 20+ programming languages.</div>
+                </div>
+              </div>
+			  <div class="div-block-63"><img src="./Blackbox AI Code Chat_files/terminal.svg" loading="lazy" alt="" class="image-19">
+                <div onclick="window.open(`${window.location.origin}/autocommit`)" class="div-block-64" style="cursor: pointer;">
+                  <div class="text-block-7 bold">Code AutoCommit</div>
+                  <div class="text-block-7 small">BlackboxAI Commit Messages</div>
+                </div>
+              </div>
+			  <div class="div-block-63"><img src="./Blackbox AI Code Chat_files/terminal.svg" loading="lazy" alt="" class="image-19">
+                <div onclick="window.open(`${window.location.origin}/version_history`)" class="div-block-64" style="cursor: pointer;">
+                  <div class="text-block-7 bold">Code Version History</div>
+                  <div class="text-block-7 small">BlackboxAI Version History</div>
+                </div>
+              </div>
+			  <div class="div-block-63"><img src="./Blackbox AI Code Chat_files/terminal.svg" loading="lazy" alt="" class="image-19">
+                <div onclick="displayVideo(&#39;yAF70GfBc1Q&#39;)" class="div-block-64" style="cursor: pointer;">
+                  <div class="text-block-7 bold">AI Generated README</div>
+                  <div class="text-block-7 small">BlackboxAI REAMDE</div>
+                </div>
+              </div>
+            </div>
+			<div class="text-block-7 bold">Call Onboarding/Support</div>
+			<div class="text-block-7 small">Schedule an Onboaridng/Support call with the Blackbox team. <a class="text-block-7" style="cursor: pointer;" onclick="window.open(&#39;https://calendly.com/blackboxapp/30min&#39;)">Schedule</a></div>
+          </div>
+          <div class="div-block-61-copy-copy">
+			
+				
+					<div style="cursor: pointer;" onclick="premium()" class="vscode-button w-button upgrade-button upgrade-yellow">Upgrade at Only $0.99/week</div>
+				
+				<div class="wrap" style="margin-top: 8px; align-items: center;">
+					<div class="text-block-7 bold" style="display: block;"><div class="text-block-7 small" style="display: inline;">sahilkangude1@gmail.com </div><a class="text-block-7 small" href="https://www.useblackbox.io/logout">(Logout)</a></div>
+				</div>
+			
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section-with-code-editor">
+      <div data-current="Tab 1" data-easing="ease" data-duration-in="300" data-duration-out="100" class="tabs-50 w-tabs">
+        <div class="tabcontainer w-tab-menu" role="tablist">
+          <a data-w-tab="Tab 1" class="tab-vscode w-inline-block w-tab-link w--current" id="w-tabs-0-data-w-tab-0" href="https://www.useblackbox.io/chat#w-tabs-0-data-w-pane-0" role="tab" aria-controls="w-tabs-0-data-w-pane-0" aria-selected="true">
+            <div class="text-on-tab">Blackbox AI Chat</div>
+			<!-- <img loading="lazy" src="/new-chat-images/Close.svg" alt="close" class="image-21"> -->
+          </a>
+        </div>
+        <div class="tabs-content-2 w-tab-content">
+          <div data-w-tab="Tab 1" class="tab-pane-vscode w-tab-pane w--tab-active" id="w-tabs-0-data-w-pane-0" role="tabpanel" aria-labelledby="w-tabs-0-data-w-tab-0">
+            <div class="div-block-69-copy">
+              <div class="chatlog-container chat-area">
+              <div class="vscode-chartbox right-align chatMessage sent">
+						<div class="div-block-68">
+							<div class="text-block-10">Make a reservation form for BISCOTTI CAFE and store the sumbitted data make a responsive site</div>
+						</div>
+						<div class="text-block-10 dark msg-time"><div class="date-display">Oct 08 3:12 PM</div></div>
+					</div><div class="vscode-chartbox chatMessage recieved" data-id="1696758166927">
+				<div class="div-block-68 title">
+					<div class="text-block-10">BLACKBOX AI</div>
+				</div>
+				<div class="div-block-68 chat-message text-block-10"><span class="chat-string">
+
+</span><div class="code-snippet-holder"><div class="top-code-bar"><div class="copy-text">Copied!</div><img class="code-copy-img" src="./Blackbox AI Code Chat_files/copy-btnnn.png"></div><div class="CodeMirror cm-s-dracula"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 1644px; left: 4px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;" readonly="" tabindex="0"></textarea></div><div class="CodeMirror-vscrollbar" tabindex="-1" cm-not-content="true"><div style="min-width: 1px; height: 0px;"></div></div><div class="CodeMirror-hscrollbar" tabindex="-1" cm-not-content="true"><div style="height: 100%; min-height: 1px; width: 0px;"></div></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: -5px; border-right-width: 45px; min-height: 1668px; min-width: 644.725px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"><pre class="CodeMirror-line-like"><span>xxxxxxxxxx</span></pre></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-cursors"><div class="CodeMirror-cursor" style="left: 4px; top: 1640px; height: 20px;">&nbsp;</div></div><div class="CodeMirror-code" role="presentation"><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">html</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-operator">&lt;!</span><span class="cm-variable">DOCTYPE</span> <span class="cm-variable">html</span><span class="cm-operator">&gt;</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-operator">&lt;</span><span class="cm-variable">html</span> <span class="cm-variable">lang</span><span class="cm-operator">=</span><span class="cm-string">"en"</span><span class="cm-operator">&gt;</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-operator">&lt;</span><span class="cm-variable">head</span><span class="cm-operator">&gt;</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-operator">&lt;</span><span class="cm-variable">meta</span> <span class="cm-variable">charset</span><span class="cm-operator">=</span><span class="cm-string">"UTF-8"</span><span class="cm-operator">&gt;</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-operator">&lt;</span><span class="cm-variable">meta</span> <span class="cm-variable">name</span><span class="cm-operator">=</span><span class="cm-string">"viewport"</span> <span class="cm-variable">content</span><span class="cm-operator">=</span><span class="cm-string">"width=device-width, initial-scale=1.0"</span><span class="cm-operator">&gt;</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-operator">&lt;</span><span class="cm-variable">title</span><span class="cm-operator">&gt;</span><span class="cm-variable">Biscotti</span> <span class="cm-variable">Cafe</span> <span class="cm-variable">Reservation</span> <span class="cm-variable">Form</span><span class="cm-operator">&lt;</span><span class="cm-string-2">/title&gt;</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-operator">&lt;</span><span class="cm-variable">style</span><span class="cm-operator">&gt;</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-variable">body</span> {</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">            <span class="cm-variable">font</span><span class="cm-operator">-</span><span class="cm-variable">family</span>: <span class="cm-variable">Arial</span>, <span class="cm-variable">sans</span><span class="cm-operator">-</span><span class="cm-variable">serif</span>;</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        }</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        .<span class="cm-variable">container</span> {</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">            <span class="cm-variable">max</span><span class="cm-operator">-</span><span class="cm-variable">width</span>: <span class="cm-number">600</span><span class="cm-variable">px</span>;</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">            <span class="cm-variable">margin</span>: <span class="cm-number">0</span> <span class="cm-variable">auto</span>;</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">            <span class="cm-variable">padding</span>: <span class="cm-number">20</span><span class="cm-variable">px</span>;</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">            <span class="cm-variable">box</span><span class="cm-operator">-</span><span class="cm-variable">shadow</span>: <span class="cm-number">0</span> <span class="cm-number">0</span> <span class="cm-number">10</span><span class="cm-variable">px</span> <span class="cm-variable">rgba</span>(<span class="cm-number">0</span>, <span class="cm-number">0</span>, <span class="cm-number">0</span>, <span class="cm-number">0.1</span>);</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        }</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-variable">label</span> {</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">            <span class="cm-variable">display</span>: <span class="cm-variable">block</span>;</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">            <span class="cm-variable">margin</span><span class="cm-operator">-</span><span class="cm-variable">top</span>: <span class="cm-number">10</span><span class="cm-variable">px</span>;</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        }</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-variable">input</span>[<span class="cm-variable">type</span><span class="cm-operator">=</span><span class="cm-string">"text"</span>],</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-variable">input</span>[<span class="cm-variable">type</span><span class="cm-operator">=</span><span class="cm-string">"email"</span>],</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-variable">input</span>[<span class="cm-variable">type</span><span class="cm-operator">=</span><span class="cm-string">"tel"</span>],</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-variable">select</span>,</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-variable">textarea</span> {</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">            <span class="cm-variable">width</span>: <span class="cm-number">100</span><span class="cm-operator">%</span>;</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">            <span class="cm-variable">padding</span>: <span class="cm-number">10</span><span class="cm-variable">px</span>;</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">            <span class="cm-variable">border</span>: <span class="cm-number">1</span><span class="cm-variable">px</span> <span class="cm-variable">solid</span> <span class="cm-property">#ccc</span>;</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">            <span class="cm-variable">border</span><span class="cm-operator">-</span><span class="cm-variable">radius</span>: <span class="cm-number">4</span><span class="cm-variable">px</span>;</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">            <span class="cm-variable">box</span><span class="cm-operator">-</span><span class="cm-variable">sizing</span>: <span class="cm-variable">border</span><span class="cm-operator">-</span><span class="cm-variable">box</span>;</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        }</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-variable">button</span>[<span class="cm-variable">type</span><span class="cm-operator">=</span><span class="cm-string">"submit"</span>] {</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">            <span class="cm-variable">width</span>: <span class="cm-number">100</span><span class="cm-operator">%</span>;</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">            <span class="cm-variable">padding</span>: <span class="cm-number">10</span><span class="cm-variable">px</span>;</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">            <span class="cm-variable">background</span><span class="cm-operator">-</span><span class="cm-variable">color</span>: <span class="cm-property">#4CAF50</span>;</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">            <span class="cm-variable">color</span>: <span class="cm-variable">white</span>;</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">            <span class="cm-variable">border</span>: <span class="cm-variable">none</span>;</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">            <span class="cm-variable">border</span><span class="cm-operator">-</span><span class="cm-variable">radius</span>: <span class="cm-number">4</span><span class="cm-variable">px</span>;</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">            <span class="cm-variable">cursor</span>: <span class="cm-variable">pointer</span>;</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">            <span class="cm-variable">margin</span><span class="cm-operator">-</span><span class="cm-variable">top</span>: <span class="cm-number">20</span><span class="cm-variable">px</span>;</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        }</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-variable">button</span>[<span class="cm-variable">type</span><span class="cm-operator">=</span><span class="cm-string">"submit"</span>]:<span class="cm-variable">hover</span> {</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">            <span class="cm-variable">background</span><span class="cm-operator">-</span><span class="cm-variable">color</span>: <span class="cm-property">#45a049</span>;</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        }</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-operator">&lt;</span><span class="cm-string-2">/style&gt;</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-operator">&lt;</span><span class="cm-string-2">/head&gt;</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-operator">&lt;</span><span class="cm-variable">body</span><span class="cm-operator">&gt;</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-operator">&lt;</span><span class="cm-variable">div</span> <span class="cm-keyword">class</span><span class="cm-operator">=</span><span class="cm-string">"container"</span><span class="cm-operator">&gt;</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-operator">&lt;</span><span class="cm-variable">h1</span><span class="cm-operator">&gt;</span><span class="cm-variable">Biscotti</span> <span class="cm-variable">Cafe</span> <span class="cm-variable">Reservation</span> <span class="cm-variable">Form</span><span class="cm-operator">&lt;</span><span class="cm-string-2">/h1&gt;</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-operator">&lt;</span><span class="cm-variable">form</span> <span class="cm-variable">action</span><span class="cm-operator">=</span><span class="cm-string">"/submit-reservation"</span> <span class="cm-variable">method</span><span class="cm-operator">=</span><span class="cm-string">"post"</span><span class="cm-operator">&gt;</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">            <span class="cm-operator">&lt;</span><span class="cm-variable">label</span> <span class="cm-keyword">for</span><span class="cm-operator">=</span><span class="cm-string">"name"</span><span class="cm-operator">&gt;</span><span class="cm-variable">Name</span>:<span class="cm-operator">&lt;</span><span class="cm-string-2">/label&gt;</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">            <span class="cm-operator">&lt;</span><span class="cm-variable">input</span> <span class="cm-variable">type</span><span class="cm-operator">=</span><span class="cm-string">"text"</span> <span class="cm-variable">id</span><span class="cm-operator">=</span><span class="cm-string">"name"</span> <span class="cm-variable">name</span><span class="cm-operator">=</span><span class="cm-string">"name"</span> <span class="cm-variable">required</span><span class="cm-operator">&gt;</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">            <span class="cm-operator">&lt;</span><span class="cm-variable">label</span> <span class="cm-keyword">for</span><span class="cm-operator">=</span><span class="cm-string">"email"</span><span class="cm-operator">&gt;</span><span class="cm-variable">Email</span>:<span class="cm-operator">&lt;</span><span class="cm-string-2">/label&gt;</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">            <span class="cm-operator">&lt;</span><span class="cm-variable">input</span> <span class="cm-variable">type</span><span class="cm-operator">=</span><span class="cm-string">"email"</span> <span class="cm-variable">id</span><span class="cm-operator">=</span><span class="cm-string">"email"</span> <span class="cm-variable">name</span><span class="cm-operator">=</span><span class="cm-string">"email"</span> <span class="cm-variable">required</span><span class="cm-operator">&gt;</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">            <span class="cm-operator">&lt;</span><span class="cm-variable">label</span> <span class="cm-keyword">for</span><span class="cm-operator">=</span><span class="cm-string">"phone"</span><span class="cm-operator">&gt;</span><span class="cm-variable">Phone</span>:<span class="cm-operator">&lt;</span><span class="cm-string-2">/label&gt;</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">            <span class="cm-operator">&lt;</span><span class="cm-variable">input</span> <span class="cm-variable">type</span><span class="cm-operator">=</span><span class="cm-string">"tel"</span> <span class="cm-variable">id</span><span class="cm-operator">=</span><span class="cm-string">"phone"</span> <span class="cm-variable">name</span><span class="cm-operator">=</span><span class="cm-string">"phone"</span> <span class="cm-variable">required</span><span class="cm-operator">&gt;</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">            <span class="cm-operator">&lt;</span><span class="cm-variable">label</span> <span class="cm-keyword">for</span><span class="cm-operator">=</span><span class="cm-string">"date"</span><span class="cm-operator">&gt;</span><span class="cm-variable">Date</span>:<span class="cm-operator">&lt;</span><span class="cm-string-2">/label&gt;</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">            <span class="cm-operator">&lt;</span><span class="cm-variable">input</span> <span class="cm-variable">type</span><span class="cm-operator">=</span><span class="cm-string">"date"</span> <span class="cm-variable">id</span><span class="cm-operator">=</span><span class="cm-string">"date"</span> <span class="cm-variable">name</span><span class="cm-operator">=</span><span class="cm-string">"date"</span> <span class="cm-variable">required</span><span class="cm-operator">&gt;</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">            <span class="cm-operator">&lt;</span><span class="cm-variable">label</span> <span class="cm-keyword">for</span><span class="cm-operator">=</span><span class="cm-string">"time"</span><span class="cm-operator">&gt;</span><span class="cm-variable">Time</span>:<span class="cm-operator">&lt;</span><span class="cm-string-2">/label&gt;</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">            <span class="cm-operator">&lt;</span><span class="cm-variable">input</span> <span class="cm-variable">type</span><span class="cm-operator">=</span><span class="cm-string">"time"</span> <span class="cm-variable">id</span><span class="cm-operator">=</span><span class="cm-string">"time"</span> <span class="cm-variable">name</span><span class="cm-operator">=</span><span class="cm-string">"time"</span> <span class="cm-variable">required</span><span class="cm-operator">&gt;</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">            <span class="cm-operator">&lt;</span><span class="cm-variable">label</span> <span class="cm-keyword">for</span><span class="cm-operator">=</span><span class="cm-string">"guests"</span><span class="cm-operator">&gt;</span><span class="cm-variable">Number</span> <span class="cm-variable">of</span> <span class="cm-variable">Guests</span>:<span class="cm-operator">&lt;</span><span class="cm-string-2">/label&gt;</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">            <span class="cm-operator">&lt;</span><span class="cm-variable">input</span> <span class="cm-variable">type</span><span class="cm-operator">=</span><span class="cm-string">"number"</span> <span class="cm-variable">id</span><span class="cm-operator">=</span><span class="cm-string">"guests"</span> <span class="cm-variable">name</span><span class="cm-operator">=</span><span class="cm-string">"guests"</span> <span class="cm-variable">min</span><span class="cm-operator">=</span><span class="cm-string">"1"</span> <span class="cm-variable">required</span><span class="cm-operator">&gt;</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">            <span class="cm-operator">&lt;</span><span class="cm-variable">label</span> <span class="cm-keyword">for</span><span class="cm-operator">=</span><span class="cm-string">"message"</span><span class="cm-operator">&gt;</span><span class="cm-variable">Message</span>:<span class="cm-operator">&lt;</span><span class="cm-string-2">/label&gt;</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">            <span class="cm-operator">&lt;</span><span class="cm-variable">textarea</span> <span class="cm-variable">id</span><span class="cm-operator">=</span><span class="cm-string">"message"</span> <span class="cm-variable">name</span><span class="cm-operator">=</span><span class="cm-string">"message"</span> <span class="cm-variable">rows</span><span class="cm-operator">=</span><span class="cm-string">"4"</span> <span class="cm-variable">cols</span><span class="cm-operator">=</span><span class="cm-string">"50"</span><span class="cm-operator">&gt;&lt;</span><span class="cm-string-2">/textarea&gt;</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">            <span class="cm-operator">&lt;</span><span class="cm-variable">button</span> <span class="cm-variable">type</span><span class="cm-operator">=</span><span class="cm-string">"submit"</span><span class="cm-operator">&gt;</span><span class="cm-variable">Submit</span><span class="cm-operator">&lt;</span><span class="cm-string-2">/button&gt;</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-operator">&lt;</span><span class="cm-string-2">/form&gt;</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-operator">&lt;</span><span class="cm-string-2">/div&gt;</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-operator">&lt;</span><span class="cm-string-2">/body&gt;</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-operator">&lt;</span><span class="cm-string-2">/html&gt;</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div></div></div></div></div><div style="position: absolute; height: 45px; width: 1px; border-bottom: 0px solid transparent; top: 1668px;"></div><div class="CodeMirror-gutters" style="display: none; height: 1713px;"></div></div></div></div><span class="chat-string">
+
+This code creates a reservation form for Biscotti Cafe. The form includes fields for the user's name, email, phone number, desired date and time, the number of guests, and an optional message. The form is styled with CSS to make it visually appealing and user-friendly.
+
+Please note that this form does not include any server-side code to handle form submissions. You will need to implement this functionality on your own server using a language like PHP, Node.js, or Python. Additionally, you will need to set up a database to store the submitted data.
+
+For a fully functional and responsive site, you can use a web development framework like Django (Python), Express (Node.js), or Ruby on Rails (Ruby). These frameworks provide built-in support for form handling, database integration, and responsive design.
+
+Remember to replace "/submit-reservation" in the form's action attribute with the actual URL where you will handle form submissions on your server.</span></div>
+				<div class="quality-toaster active"><div class="toaster-text">Feedback</div><div class="icons-holder"><img src="./Blackbox AI Code Chat_files/thumbs-down.png" class="bad-icon toaster-icon"><img src="./Blackbox AI Code Chat_files/thumbs-up.png" class="good-icon toaster-icon"></div></div><div class="text-block-10 dark bottom-holder"><div class="typing" style="display: none;">blackbox typing <img src="./Blackbox AI Code Chat_files/loader_three-dots-white.svg" class="typing-loading"></div><div class="date-display">Oct 08 3:12 PM</div></div>
+			</div><div class="vscode-chartbox right-align chatMessage sent">
+						<div class="div-block-68">
+							<div class="text-block-10">Make a database of the upper program in php</div>
+						</div>
+						<div class="text-block-10 dark msg-time"><div class="date-display">Oct 08 3:15 PM</div></div>
+					</div><div class="vscode-chartbox chatMessage recieved" data-id="1696758301283">
+				<div class="div-block-68 title">
+					<div class="text-block-10">BLACKBOX AI</div>
+				</div>
+				<div class="div-block-68 chat-message text-block-10"><span class="chat-string">1. First, create a new database in phpMyAdmin.
+
+2. Next, create a new table called "reservations" with the following columns: id (INT, AUTO_INCREMENT, PRIMARY KEY), name (VARCHAR, 255), email (VARCHAR, 255), phone (VARCHAR, 255), date (DATE), time (TIME), guests (INT), and message (TEXT).
+
+3. Now, let's create a new PHP file called "db_connection.php" to establish a connection to the database.
+
+</span><div class="code-snippet-holder"><div class="top-code-bar"><div class="copy-text">Copied!</div><img class="code-copy-img" src="./Blackbox AI Code Chat_files/copy-btnnn.png"></div><div class="CodeMirror cm-s-dracula"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 304px; left: 4px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;" readonly="" tabindex="0"></textarea></div><div class="CodeMirror-vscrollbar" tabindex="-1" cm-not-content="true"><div style="min-width: 1px; height: 0px;"></div></div><div class="CodeMirror-hscrollbar" tabindex="-1" cm-not-content="true"><div style="height: 100%; min-height: 1px; width: 0px;"></div></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: -5px; border-right-width: 45px; min-height: 328px; min-width: 509.212px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"><pre class="CodeMirror-line-like"><span>xxxxxxxxxx</span></pre></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-cursors"><div class="CodeMirror-cursor" style="left: 4px; top: 300px; height: 20px;">&nbsp;</div></div><div class="CodeMirror-code" role="presentation"><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">php</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-operator">&lt;?</span><span class="cm-variable">php</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">$servername</span> <span class="cm-operator">=</span> <span class="cm-string">"localhost"</span>;</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">$username</span> <span class="cm-operator">=</span> <span class="cm-string">"your_username"</span>;</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">$password</span> <span class="cm-operator">=</span> <span class="cm-string">"your_password"</span>;</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">$dbname</span> <span class="cm-operator">=</span> <span class="cm-string">"your_database_name"</span>;</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-comment">// Create connection</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">$conn</span> <span class="cm-operator">=</span> <span class="cm-keyword">new</span> <span class="cm-variable">mysqli</span>(<span class="cm-variable">$servername</span>, <span class="cm-variable">$username</span>, <span class="cm-variable">$password</span>, <span class="cm-variable">$dbname</span>);</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-comment">// Check connection</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-keyword">if</span> (<span class="cm-variable">$conn</span><span class="cm-operator">-&gt;</span><span class="cm-variable">connect_error</span>) {</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-variable">die</span>(<span class="cm-string">"Connection failed: "</span> . <span class="cm-property">$conn</span><span class="cm-operator">-&gt;</span><span class="cm-variable">connect_error</span>);</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">}</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-operator">?&gt;</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div></div></div></div></div><div style="position: absolute; height: 45px; width: 1px; border-bottom: 0px solid transparent; top: 328px;"></div><div class="CodeMirror-gutters" style="display: none; height: 373px;"></div></div></div></div><span class="chat-string">
+
+4. Next, create a new PHP file called "submit_reservation.php" to handle form submissions.
+
+</span><div class="code-snippet-holder"><div class="top-code-bar"><div class="copy-text">Copied!</div><img class="code-copy-img" src="./Blackbox AI Code Chat_files/copy-btnnn.png"></div><div class="CodeMirror cm-s-dracula"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 444px; left: 4px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;" readonly="" tabindex="0"></textarea></div><div class="CodeMirror-vscrollbar" tabindex="-1" cm-not-content="true"><div style="min-width: 1px; height: 0px;"></div></div><div class="CodeMirror-hscrollbar" tabindex="-1" cm-not-content="true" style="display: block; right: 0px; left: 0px;"><div style="height: 100%; min-height: 1px; width: 1298px;"></div></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: -5px; border-right-width: 45px; min-height: 468px; min-width: 1298.16px; padding-right: 0px; padding-bottom: 5px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"><pre class="CodeMirror-line-like"><span>xxxxxxxxxx</span></pre></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-cursors"><div class="CodeMirror-cursor" style="left: 4px; top: 440px; height: 20px;">&nbsp;</div></div><div class="CodeMirror-code" role="presentation"><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">php</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-operator">&lt;?</span><span class="cm-variable">php</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">include</span> <span class="cm-string">'db_connection.php'</span>;</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">$name</span> <span class="cm-operator">=</span> <span class="cm-variable">$_POST</span>[<span class="cm-string">'name'</span>];</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">$email</span> <span class="cm-operator">=</span> <span class="cm-variable">$_POST</span>[<span class="cm-string">'email'</span>];</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">$phone</span> <span class="cm-operator">=</span> <span class="cm-variable">$_POST</span>[<span class="cm-string">'phone'</span>];</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">$date</span> <span class="cm-operator">=</span> <span class="cm-variable">$_POST</span>[<span class="cm-string">'date'</span>];</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">$time</span> <span class="cm-operator">=</span> <span class="cm-variable">$_POST</span>[<span class="cm-string">'time'</span>];</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">$guests</span> <span class="cm-operator">=</span> <span class="cm-variable">$_POST</span>[<span class="cm-string">'guests'</span>];</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">$message</span> <span class="cm-operator">=</span> <span class="cm-variable">$_POST</span>[<span class="cm-string">'message'</span>];</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">$sql</span> <span class="cm-operator">=</span> <span class="cm-string">"INSERT INTO reservations (name, email, phone, date, time, guests, message) VALUES ('$name', '$email', '$phone', '$date', '$time', '$guests', '$message')"</span>;</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-keyword">if</span> (<span class="cm-variable">$conn</span><span class="cm-operator">-&gt;</span><span class="cm-variable">query</span>(<span class="cm-variable">$sql</span>) <span class="cm-operator">===</span> <span class="cm-variable">TRUE</span>) {</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-variable">echo</span> <span class="cm-string">"New record created successfully"</span>;</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">} <span class="cm-keyword">else</span> {</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-variable">echo</span> <span class="cm-string">"Error: "</span> . <span class="cm-property">$sql</span> . <span class="cm-string">"&lt;br&gt;"</span> . <span class="cm-property">$conn</span><span class="cm-operator">-&gt;</span><span class="cm-variable">error</span>;</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">}</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">$conn</span><span class="cm-operator">-&gt;</span><span class="cm-variable">close</span>();</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-operator">?&gt;</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div></div></div></div></div><div style="position: absolute; height: 45px; width: 1px; border-bottom: 5px solid transparent; top: 468px;"></div><div class="CodeMirror-gutters" style="display: none; height: 518px;"></div></div></div></div><span class="chat-string">
+
+5. Finally, modify the HTML form in the upper program to submit the data to "submit_reservation.php" instead of "/submit-reservation".
+
+</span><div class="code-snippet-holder"><div class="top-code-bar"><div class="copy-text">Copied!</div><img class="code-copy-img" src="./Blackbox AI Code Chat_files/copy-btnnn.png"></div><div class="CodeMirror cm-s-dracula"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 84px; left: 4px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;" readonly="" tabindex="0"></textarea></div><div class="CodeMirror-vscrollbar" tabindex="-1" cm-not-content="true"><div style="min-width: 1px; height: 0px;"></div></div><div class="CodeMirror-hscrollbar" tabindex="-1" cm-not-content="true"><div style="height: 100%; min-height: 1px; width: 0px;"></div></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: -5px; border-right-width: 45px; min-height: 108px; min-width: 421.5px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"><pre class="CodeMirror-line-like"><span>xxxxxxxxxx</span></pre></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-cursors"><div class="CodeMirror-cursor" style="left: 4px; top: 80px; height: 20px;">&nbsp;</div></div><div class="CodeMirror-code" role="presentation"><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">html</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-operator">&lt;</span><span class="cm-variable">form</span> <span class="cm-variable">action</span><span class="cm-operator">=</span><span class="cm-string">"submit_reservation.php"</span> <span class="cm-variable">method</span><span class="cm-operator">=</span><span class="cm-string">"post"</span><span class="cm-operator">&gt;</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-comment">&lt;!-- Your form fields go here --&gt;</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-operator">&lt;</span><span class="cm-string-2">/form&gt;</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div></div></div></div></div><div style="position: absolute; height: 45px; width: 1px; border-bottom: 0px solid transparent; top: 108px;"></div><div class="CodeMirror-gutters" style="display: none; height: 153px;"></div></div></div></div><span class="chat-string">
+
+Now, when</span></div>
+				<div class="quality-toaster active"><div class="toaster-text">Feedback</div><div class="icons-holder"><img src="./Blackbox AI Code Chat_files/thumbs-down.png" class="bad-icon toaster-icon"><img src="./Blackbox AI Code Chat_files/thumbs-up.png" class="good-icon toaster-icon"></div></div><div class="text-block-10 dark bottom-holder"><div class="typing" style="display: none;">blackbox typing<img src="./Blackbox AI Code Chat_files/loader_three-dots-white.svg" class="typing-loading"></div><div class="date-display">Oct 08 3:15 PM</div></div>
+			</div><div class="vscode-chartbox right-align chatMessage sent">
+						<div class="div-block-68">
+							<div class="text-block-10">create a reservation form for Biscotti Cafe and add data base to it of python</div>
+						</div>
+						<div class="text-block-10 dark msg-time"><div class="date-display">Oct 08 3:16 PM</div></div>
+					</div><div class="vscode-chartbox chatMessage recieved" data-id="1696758368594">
+				<div class="div-block-68 title">
+					<div class="text-block-10">BLACKBOX AI</div>
+				</div>
+				<div class="div-block-68 chat-message text-block-10"><span class="chat-string">1. First, create a new HTML file called "reservation_form.html" and add the following code to it:
+
+</span><div class="code-snippet-holder"><div class="top-code-bar"><div class="copy-text">Copied!</div><img class="code-copy-img" src="./Blackbox AI Code Chat_files/copy-btnnn.png"></div><div class="CodeMirror cm-s-dracula"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 684px; left: 4px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;" readonly="" tabindex="0"></textarea></div><div class="CodeMirror-vscrollbar" tabindex="-1" cm-not-content="true"><div style="min-width: 1px; height: 0px;"></div></div><div class="CodeMirror-hscrollbar" tabindex="-1" cm-not-content="true"><div style="height: 100%; min-height: 1px; width: 0px;"></div></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: -5px; border-right-width: 45px; min-height: 708px; min-width: 644.725px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"><pre class="CodeMirror-line-like"><span>xxxxxxxxxx</span></pre></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-cursors"><div class="CodeMirror-cursor" style="left: 4px; top: 680px; height: 20px;">&nbsp;</div></div><div class="CodeMirror-code" role="presentation"><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">html</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-operator">&lt;!</span><span class="cm-variable">DOCTYPE</span> <span class="cm-variable">html</span><span class="cm-operator">&gt;</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-operator">&lt;</span><span class="cm-variable">html</span><span class="cm-operator">&gt;</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-operator">&lt;</span><span class="cm-variable">head</span><span class="cm-operator">&gt;</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-operator">&lt;</span><span class="cm-variable">title</span><span class="cm-operator">&gt;</span><span class="cm-variable">Biscotti</span> <span class="cm-variable">Cafe</span> <span class="cm-variable">Reservation</span> <span class="cm-variable">Form</span><span class="cm-operator">&lt;</span><span class="cm-string-2">/title&gt;</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-operator">&lt;</span><span class="cm-string-2">/head&gt;</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-operator">&lt;</span><span class="cm-variable">body</span><span class="cm-operator">&gt;</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-operator">&lt;</span><span class="cm-variable">h1</span><span class="cm-operator">&gt;</span><span class="cm-variable">Biscotti</span> <span class="cm-variable">Cafe</span> <span class="cm-variable">Reservation</span> <span class="cm-variable">Form</span><span class="cm-operator">&lt;</span><span class="cm-string-2">/h1&gt;</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-operator">&lt;</span><span class="cm-variable">form</span> <span class="cm-variable">action</span><span class="cm-operator">=</span><span class="cm-string">"submit_reservation.php"</span> <span class="cm-variable">method</span><span class="cm-operator">=</span><span class="cm-string">"post"</span><span class="cm-operator">&gt;</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-operator">&lt;</span><span class="cm-variable">label</span> <span class="cm-keyword">for</span><span class="cm-operator">=</span><span class="cm-string">"name"</span><span class="cm-operator">&gt;</span><span class="cm-variable">Name</span>:<span class="cm-operator">&lt;</span><span class="cm-string-2">/label&gt;&lt;br&gt;</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-operator">&lt;</span><span class="cm-variable">input</span> <span class="cm-variable">type</span><span class="cm-operator">=</span><span class="cm-string">"text"</span> <span class="cm-variable">id</span><span class="cm-operator">=</span><span class="cm-string">"name"</span> <span class="cm-variable">name</span><span class="cm-operator">=</span><span class="cm-string">"name"</span> <span class="cm-variable">required</span><span class="cm-operator">&gt;&lt;</span><span class="cm-variable">br</span><span class="cm-operator">&gt;</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-operator">&lt;</span><span class="cm-variable">label</span> <span class="cm-keyword">for</span><span class="cm-operator">=</span><span class="cm-string">"email"</span><span class="cm-operator">&gt;</span><span class="cm-variable">Email</span>:<span class="cm-operator">&lt;</span><span class="cm-string-2">/label&gt;&lt;br&gt;</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-operator">&lt;</span><span class="cm-variable">input</span> <span class="cm-variable">type</span><span class="cm-operator">=</span><span class="cm-string">"email"</span> <span class="cm-variable">id</span><span class="cm-operator">=</span><span class="cm-string">"email"</span> <span class="cm-variable">name</span><span class="cm-operator">=</span><span class="cm-string">"email"</span> <span class="cm-variable">required</span><span class="cm-operator">&gt;&lt;</span><span class="cm-variable">br</span><span class="cm-operator">&gt;</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-operator">&lt;</span><span class="cm-variable">label</span> <span class="cm-keyword">for</span><span class="cm-operator">=</span><span class="cm-string">"phone"</span><span class="cm-operator">&gt;</span><span class="cm-variable">Phone</span>:<span class="cm-operator">&lt;</span><span class="cm-string-2">/label&gt;&lt;br&gt;</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-operator">&lt;</span><span class="cm-variable">input</span> <span class="cm-variable">type</span><span class="cm-operator">=</span><span class="cm-string">"tel"</span> <span class="cm-variable">id</span><span class="cm-operator">=</span><span class="cm-string">"phone"</span> <span class="cm-variable">name</span><span class="cm-operator">=</span><span class="cm-string">"phone"</span> <span class="cm-variable">required</span><span class="cm-operator">&gt;&lt;</span><span class="cm-variable">br</span><span class="cm-operator">&gt;</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-operator">&lt;</span><span class="cm-variable">label</span> <span class="cm-keyword">for</span><span class="cm-operator">=</span><span class="cm-string">"date"</span><span class="cm-operator">&gt;</span><span class="cm-variable">Date</span>:<span class="cm-operator">&lt;</span><span class="cm-string-2">/label&gt;&lt;br&gt;</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-operator">&lt;</span><span class="cm-variable">input</span> <span class="cm-variable">type</span><span class="cm-operator">=</span><span class="cm-string">"date"</span> <span class="cm-variable">id</span><span class="cm-operator">=</span><span class="cm-string">"date"</span> <span class="cm-variable">name</span><span class="cm-operator">=</span><span class="cm-string">"date"</span> <span class="cm-variable">required</span><span class="cm-operator">&gt;&lt;</span><span class="cm-variable">br</span><span class="cm-operator">&gt;</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-operator">&lt;</span><span class="cm-variable">label</span> <span class="cm-keyword">for</span><span class="cm-operator">=</span><span class="cm-string">"time"</span><span class="cm-operator">&gt;</span><span class="cm-variable">Time</span>:<span class="cm-operator">&lt;</span><span class="cm-string-2">/label&gt;&lt;br&gt;</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-operator">&lt;</span><span class="cm-variable">input</span> <span class="cm-variable">type</span><span class="cm-operator">=</span><span class="cm-string">"time"</span> <span class="cm-variable">id</span><span class="cm-operator">=</span><span class="cm-string">"time"</span> <span class="cm-variable">name</span><span class="cm-operator">=</span><span class="cm-string">"time"</span> <span class="cm-variable">required</span><span class="cm-operator">&gt;&lt;</span><span class="cm-variable">br</span><span class="cm-operator">&gt;</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-operator">&lt;</span><span class="cm-variable">label</span> <span class="cm-keyword">for</span><span class="cm-operator">=</span><span class="cm-string">"guests"</span><span class="cm-operator">&gt;</span><span class="cm-variable">Number</span> <span class="cm-variable">of</span> <span class="cm-variable">Guests</span>:<span class="cm-operator">&lt;</span><span class="cm-string-2">/label&gt;&lt;br&gt;</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-operator">&lt;</span><span class="cm-variable">input</span> <span class="cm-variable">type</span><span class="cm-operator">=</span><span class="cm-string">"number"</span> <span class="cm-variable">id</span><span class="cm-operator">=</span><span class="cm-string">"guests"</span> <span class="cm-variable">name</span><span class="cm-operator">=</span><span class="cm-string">"guests"</span> <span class="cm-variable">min</span><span class="cm-operator">=</span><span class="cm-string">"1"</span> <span class="cm-variable">required</span><span class="cm-operator">&gt;&lt;</span><span class="cm-variable">br</span><span class="cm-operator">&gt;</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-operator">&lt;</span><span class="cm-variable">label</span> <span class="cm-keyword">for</span><span class="cm-operator">=</span><span class="cm-string">"message"</span><span class="cm-operator">&gt;</span><span class="cm-variable">Message</span>:<span class="cm-operator">&lt;</span><span class="cm-string-2">/label&gt;&lt;br&gt;</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-operator">&lt;</span><span class="cm-variable">textarea</span> <span class="cm-variable">id</span><span class="cm-operator">=</span><span class="cm-string">"message"</span> <span class="cm-variable">name</span><span class="cm-operator">=</span><span class="cm-string">"message"</span> <span class="cm-variable">rows</span><span class="cm-operator">=</span><span class="cm-string">"4"</span> <span class="cm-variable">cols</span><span class="cm-operator">=</span><span class="cm-string">"50"</span><span class="cm-operator">&gt;&lt;</span><span class="cm-string-2">/textarea&gt;&lt;br&gt;</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-operator">&lt;</span><span class="cm-variable">input</span> <span class="cm-variable">type</span><span class="cm-operator">=</span><span class="cm-string">"submit"</span> <span class="cm-variable">value</span><span class="cm-operator">=</span><span class="cm-string">"Submit"</span><span class="cm-operator">&gt;</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-operator">&lt;</span><span class="cm-string-2">/form&gt;</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-operator">&lt;</span><span class="cm-string-2">/body&gt;</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-operator">&lt;</span><span class="cm-string-2">/html&gt;</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div></div></div></div></div><div style="position: absolute; height: 45px; width: 1px; border-bottom: 0px solid transparent; top: 708px;"></div><div class="CodeMirror-gutters" style="display: none; height: 753px;"></div></div></div></div><span class="chat-string">
+
+2. Next, create a new PHP file called "submit_reservation.php" and add the following code to it:
+
+</span><div class="code-snippet-holder"><div class="top-code-bar"><div class="copy-text">Copied!</div><img class="code-copy-img" src="./Blackbox AI Code Chat_files/copy-btnnn.png"></div><div class="CodeMirror cm-s-dracula"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 244px; left: 434.425px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;" readonly="" tabindex="0"></textarea></div><div class="CodeMirror-vscrollbar" tabindex="-1" cm-not-content="true"><div style="min-width: 1px; height: 0px;"></div></div><div class="CodeMirror-hscrollbar" tabindex="-1" cm-not-content="true"><div style="height: 100%; min-height: 1px; width: 0px;"></div></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: -5px; border-right-width: 45px; min-height: 268px; min-width: 509.212px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"><pre class="CodeMirror-line-like"><span>xxxxxxxxxx</span></pre></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-cursors"><div class="CodeMirror-cursor" style="left: 434.425px; top: 240px; height: 20px;">&nbsp;</div></div><div class="CodeMirror-code" role="presentation"><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">php</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-operator">&lt;?</span><span class="cm-variable">php</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">$servername</span> <span class="cm-operator">=</span> <span class="cm-string">"localhost"</span>;</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">$username</span> <span class="cm-operator">=</span> <span class="cm-string">"your_username"</span>;</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">$password</span> <span class="cm-operator">=</span> <span class="cm-string">"your_password"</span>;</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">$dbname</span> <span class="cm-operator">=</span> <span class="cm-string">"your_database_name"</span>;</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-comment">// Create connection</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">$conn</span> <span class="cm-operator">=</span> <span class="cm-keyword">new</span> <span class="cm-variable">mysqli</span>(<span class="cm-variable">$servername</span>, <span class="cm-variable">$username</span>, <span class="cm-variable">$password</span>, <span class="cm-variable">$dbname</span>);</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-comment">// Check connection</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-keyword">if</span> (<span class="cm-variable">$conn</span><span class="cm-operator">-&gt;</span><span class="cm-variable">connect_error</span>) {</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-variable">die</span>(<span class="cm-string">"Connection failed: "</span> . <span class="cm-property">$conn</span><span class="cm-operator">-&gt;</span><span class="cm-variable">connect_error</span>);</span></pre></div></div></div></div></div><div style="position: absolute; height: 45px; width: 1px; border-bottom: 0px solid transparent; top: 268px;"></div><div class="CodeMirror-gutters" style="display: none; height: 313px;"></div></div></div></div></div>
+				<div class="quality-toaster active"><div class="toaster-text">Feedback</div><div class="icons-holder"><img src="./Blackbox AI Code Chat_files/thumbs-down.png" class="bad-icon toaster-icon"><img src="./Blackbox AI Code Chat_files/thumbs-up.png" class="good-icon toaster-icon"></div></div><div class="text-block-10 dark bottom-holder"><div class="typing" style="display: none;">blackbox typing<img src="./Blackbox AI Code Chat_files/loader_three-dots-white.svg" class="typing-loading"></div><div class="date-display">Oct 08 3:16 PM</div></div>
+			</div></div>
+			  <div class="button-holder-feedback"></div>
+			  	<div class="button-holder">
+					<div class="beside-btn continue-btn active">Continue</div>
+					<div class="beside-btn pause-btn">Pause</div>
+				</div>
+              <div class="chat-field-vscode">
+				
+		<div class="image-preview-holder"></div>
+		<span id="upload-file-name"></span>
+                <div class="chatfield-container">
+                  <div class="form-block w-form">
+                    <div id="email-form" class="form">
+						<textarea type="text" class="text-field-copy w-input send-message" autofocus="true" placeholder="Ask any coding question" style="height: 41.6px;"></textarea>
+                      	<span style="cursor: pointer;" class="button-circle w-inline-block send-message-icon">
+							<img loading="lazy" src="./Blackbox AI Code Chat_files/send.svg" alt="send" class="icon-24">
+						</span>
+						
+							<div class="form update-image">
+						
+							<input type="file" id="fileInput" accept="image/*">
+							<label for="fileInput" id="upload-btn" class="file-custom-before vscode-button nobackground">
+								<img loading="lazy" src="./Blackbox AI Code Chat_files/image_upload.svg" alt="send">
+							</label>
+						</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="text-block-10-copy">Blackbox AI Chat is in beta and Blackbox is not liable for the content generated. Blackbox may produce inaccurate information about people, places, facts, code and more. By using Blackbox, you acknowledge that you agree to agree to Blackbox's <a href="https://www.useblackbox.io/terms" target="_blank" class="link">Terms</a> and <a href="https://www.useblackbox.io/privacy" class="link">Privacy Policy</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div data-w-tab="Tab 2" class="tab-pane-vscode w-tab-pane"></div>
+          <div data-w-tab="Tab 3" class="w-tab-pane"></div>
+          <div data-w-tab="Tab 4" class="w-tab-pane"></div>
+          <div data-w-tab="Tab 5" class="w-tab-pane"></div>
+        </div>
+      </div>
+      <div class="divider"></div>
+      <div style="display:none" data-current="Tab 1" data-easing="ease" data-duration-in="300" data-duration-out="100" class="tabs-50 w-tabs">
+        <div class="tabcontainer w-tab-menu" role="tablist">
+          <a data-w-tab="Tab 1" class="tab-vscode w-inline-block w-tab-link w--current" id="w-tabs-1-data-w-tab-0" href="https://www.useblackbox.io/chat#w-tabs-1-data-w-pane-0" role="tab" aria-controls="w-tabs-1-data-w-pane-0" aria-selected="true"><img alt="" loading="lazy" src="./Blackbox AI Code Chat_files/chat-code.svg" class="image-19">
+            <div class="text-on-tab">CodeFile.js</div><img alt="" loading="lazy" src="./Blackbox AI Code Chat_files/Ellipse.svg" class="image-20">
+          </a>
+        </div>
+        <div class="tabs-content-2 w-tab-content">
+          <div data-w-tab="Tab 1" class="tab-pane-vscode w-tab-pane w--tab-active" id="w-tabs-1-data-w-pane-0" role="tabpanel" aria-labelledby="w-tabs-1-data-w-tab-0">
+            <div class="div-block-74">
+              <div class="text-small-code">Users</div><img src="./Blackbox AI Code Chat_files/chevron-right.svg" loading="lazy" alt="" class="image-23">
+              <div class="text-small-code">anonim</div><img src="./Blackbox AI Code Chat_files/chevron-right.svg" loading="lazy" alt="" class="image-23">
+              <div class="text-small-code">Download</div><img src="./Blackbox AI Code Chat_files/chevron-right.svg" loading="lazy" alt="" class="image-23"><img src="./Blackbox AI Code Chat_files/chat-code.svg" loading="lazy" alt="" class="image-23">
+              <div class="text-small-code">CodeFile.js</div>
+            </div>
+            <div class="div-block-69">
+              <div class="code-container">
+                <div code-mode="javascript" class="code_wrapper">
+                  <div class="code-embed w-embed"><textarea class="code-editor" id="editor" style="opacity: 0; display: none;">//Write code in this file to try Blackbox Code AutoComplete
+//Press Enter after each line you write
+//You will get the next line suggestion
+//Write your first line below
+</textarea><div class="CodeMirror cm-s-dracula CodeMirror-wrap"><div style="overflow: hidden; position: relative; width: 3px; height: 0px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-vscrollbar" tabindex="-1" cm-not-content="true" style="display: block; bottom: 0px;"><div style="min-width: 1px; height: 85px;"></div></div><div class="CodeMirror-hscrollbar" tabindex="-1" cm-not-content="true"><div style="height: 100%; min-height: 1px; width: 0px;"></div></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"><pre class="CodeMirror-line-like"><span>xxxxxxxxxx</span></pre><div class="CodeMirror-linenumber CodeMirror-gutter-elt"><div>5</div></div></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-cursors"></div><div class="CodeMirror-code" role="presentation"></div></div></div></div></div><div style="position: absolute; height: 50px; width: 1px; border-bottom: 0px solid transparent;"></div><div class="CodeMirror-gutters"><div class="CodeMirror-gutter CodeMirror-linenumbers" style="width: 1px;"></div></div></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+	<div class="modal-background-blur" style="display: none;" onclick="$(&#39;.modal-background-blur&#39;)[0].style=&#39;display:none&#39;">
+		<div class="modal-container-signup">
+		  <a href="https://www.useblackbox.io/chat#" class="link-block-4 w-inline-block" data-w-id="close-code-modal"></a>
+		  <div class="div-block-76-copy">
+		   <div id="codeForm">
+			<input type="text" name="referral-code" id="referral-code" class="text-field-copy w-input referral-code">
+		   </div>
+		  </div>
+		  <div class="text-block-12">Enter with the Referral Code</div>
+		</div>
+	  </div>
+  </div>
+  <script src="./Blackbox AI Code Chat_files/jquery-3.5.1.min.dc5e7f18c8.js.download" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="./Blackbox AI Code Chat_files/new-chat-js.js.download" type="text/javascript"></script>
+  <script async="" src="./Blackbox AI Code Chat_files/js"></script>
+  <link rel="stylesheet" href="./Blackbox AI Code Chat_files/lity.css">
+  <script src="./Blackbox AI Code Chat_files/lity.js.download"></script>
+  <script src="./Blackbox AI Code Chat_files/lang.js.download"></script>
+  <script src="./Blackbox AI Code Chat_files/unicode_blocks.js.download"></script>
+  <script src="./Blackbox AI Code Chat_files/Parser.js.download"></script>
+  <script src="./Blackbox AI Code Chat_files/ISO639.js.download"></script>
+  <script src="./Blackbox AI Code Chat_files/LanguageDetect.js.download"></script>
+  <script>
+		let url = 'wss://www.useblackbox.io/'
+		let global_message_id
+		let full_stream_answer
+		let stream_complete = false
+		let isAnswerFinished = false;
+		webSocket = new WebSocket(url);
+		if (webSocket){
+			webSocket.onmessage = (event) => {
+				// console.log(event.data);
+				if (event.data != 'connection established' && event.data != 'stream done'){
+					showPart(event.data)
+				}
+				if (event.data == 'stream done'){
+					let id = global_message_id
+					if (id) removeTyping({id})
+					if (full_stream_answer.length>0){
+						showFeedbackToaster({id})
+						addToAllAnswers(full_stream_answer)
+						//check if allAnswers ends with <im_sep>
+						let includes_im_sep = false
+						if(allAnswers[allAnswers.length-1].blackbox){
+							if (allAnswers[allAnswers.length-1].blackbox.slice(-10)== '<|im_sep|>'){
+								allAnswers[allAnswers.length-1].blackbox = allAnswers[allAnswers.length-1].blackbox.slice(0,-10)
+								includes_im_sep=true
+							}
+						}
+						if (includes_im_sep == false){
+							if (stream_complete == false) showContinue()
+							else currType = "string"
+						}else{
+							if(continueObj.id){
+								continueTyping({id: currId})
+								getAnswer({...continueObj, clickedContinue: true})
+								// showPause()
+								hideBeside()
+							}
+							includes_im_sep=false
+						}
+					}
+					$(".send-message").focus()
+				}
+			};
+		}
+		function displayVideo(videoId='TGE1iXQEzVA'){
+			let url = `https://www.youtube.com/watch?v=${videoId}`
+			lity(url)
+		}
+		$(".code_wrapper").each(function (index) {
+			let textArea = $(this).find(".code-editor")[0];
+			let codeMode = $(this).attr("code-mode");
+			let copyButton = $(this).find(".copy-code");
+			let editor = CodeMirror.fromTextArea(textArea, {
+				mode: codeMode,
+				theme: "dracula",
+				lineNumbers: true,
+				lineWrapping: true,
+				readOnly: false
+			});
+			let temp = $("<textarea>");
+			copyButton.on("click", function () {
+				$("body").append(temp);
+				temp.val(editor.getValue()).select();
+				document.execCommand("copy");
+				temp.remove();
+			});
+		});
+</script>
+<script>
+	const user = {"isFree":false,"vsCCAllow":true,"instances":[],"billingCycleInstanceCharge":[],"videos":[],"shared":[],"folders":[],"_id":"65221887c979b7003279fd0a","username":"sahilkangude1@gmail.com","fullname":"Sahil","progress":0,"createdAt":"2023-10-08T02:48:44.854Z","updatedAt":"2023-10-08T02:48:44.854Z","__v":0}
+
+	var lastSearchedQuery = ""
+	var lastAnswer = ""
+	let allAnswers = []
+	let version_update = 'v2'
+	let is_demo = false
+	let is_url_query = false
+
+	$(document).on("keydown", ".send-message", function(e){
+		const key = e.key
+		if(key === "Enter" && !e.shiftKey){
+			e.preventDefault()
+			e.stopPropagation()
+			const didSearch = localStorage.getItem("didSearch")
+			if(didSearch && user._id == undefined ){
+				window.location.href='/auth/google'
+			}else{
+				if ($(this).val().includes('<script>') == false){
+					let encodedStr = $(this).val().replace(/[\u00A0-\u9999<>\&]/g, function(i) {
+						return '&#'+i.charCodeAt(0)+';';
+					});
+					let question = encodedStr
+					if(question){
+						setTimeout(()=>{
+							$(this).height(1);
+							var totalHeight = $(this).prop('scrollHeight') - parseInt($(this).css('padding-top')) - parseInt($(this).css('padding-bottom'));
+							$(this).height(totalHeight);
+						},10)
+						sendMessage({message: question})
+					}
+					localStorage.setItem("didSearch", true)
+				}
+			}
+		}
+	})
+
+	$(".send-message").css("height", "42px")
+	$(".send-message").on('input', function(){
+		$(this).height(1);
+		var totalHeight = $(this).prop('scrollHeight') - parseInt($(this).css('padding-top')) - parseInt($(this).css('padding-bottom'));
+		$(this).height(totalHeight);
+	});
+
+	var continueObj = {}
+	var currId = ""
+	$(document).on("click", ".continue-btn", function(){
+		if(continueObj.id){
+			continueTyping({id: currId})
+			getAnswer({...continueObj, clickedContinue: true})
+			// showPause()
+			hideBeside()
+		}
+	})
+
+	var takeInAnswers = true
+	$(".reset-chat").on("click", function(){
+		location.reload()
+	})
+	$(document).on("click", ".send-message-icon", function(e){
+		const question = $(".send-message").val().trim()
+		if(question){
+			const didSearch = localStorage.getItem("didSearch")
+			if(didSearch && user._id == undefined ){
+				window.location.href='/auth/google'
+			}else{
+				sendMessage({message: question})
+			}
+		}
+	})
+
+	$(document).on("click", ".starter-text", function(){
+		let query = $(this).text()
+		if(query){
+			is_demo = true
+			query = query.trimStart().trimEnd()
+			sendMessage({message:query})
+		}
+	})
+
+	async function sendMessage(data) {
+		const {message, time = null, sendToApi = true, code = false} = data
+		if (message.includes('<script>') == false){
+			if(!$(".send-message").attr("disabled")){
+				if(sendToApi){
+					$(".send-message").attr("disabled", true)
+				}
+				lastSearchedQuery = message
+				
+				const textEl =$(".send-message")[0]
+				var str = message
+				if (!str) {
+					str = textEl.value
+				}
+
+				if (str) {
+					const $holder = $(`<div class="vscode-chartbox right-align chatMessage sent">
+						<div class="div-block-68">
+							<div class="text-block-10">${str}</div>
+						</div>
+						<div class="text-block-10 dark msg-time"></div>
+					</div>`)
+
+					var currTime
+					if (!time) {
+						currTime = new Date().getTime()
+					} else currTime = time
+					const setTime = new Date(currTime)
+					
+					var localTime = setTime.toLocaleString("en-US", {
+						hour: "numeric",
+						minute: "numeric",
+						hour12: true
+					})
+					var dateDisplay = setTime.toDateString().split(' ').slice(1,3).join(' ')
+					dateDisplay = dateDisplay+' '+ localTime
+
+					$holder.find(".msg-time").html(`<div class='date-display'>${dateDisplay}</div>`);
+					const file = fileInput[0].files[0];
+					if (file) {
+						showImage(URL.createObjectURL(file))
+					}
+					$(".image-preview-holder").html("")
+					$(".image-preview-holder").removeClass("active")
+					$(".chat-area").append($holder)
+
+
+					if (sendToApi) {
+						var answerArr = []
+						let completed = false
+						let iterations = 0
+						let max_iterations = 0
+						const id = new Date().getTime()
+						currId = id
+            addHolder({ id, from: "BLACKBOX AI" })
+            let fileText = await new Promise((resolve) => uploadFileFn(resolve));
+			if (fileText) {
+				if (fileText.status == 'success'){
+					if (typeof fileText.response == 'string'){
+						str = fileText.response+'\n\n'+str;
+					}
+				}
+            }
+            allAnswers.push({"user":str})
+						const objToSend = {message: str, allMessages: allAnswers, max_iterations, iterations, completed, stream: "", id}
+						getAnswer(objToSend)
+						// showPause()
+						hideBeside()
+						// showRelated(id)
+						$(".send-message").attr("disabled", false)
+					}
+					textEl.value = ""
+          $('#upload-file-name').text('');
+          $('#fileInput').val(null);
+				}
+			}
+		}
+	}
+
+	function showRelated(id){
+        $.ajax({
+            url:"/relatedResults",
+            method:"POST",
+            contentType:"application/json",
+            data:JSON.stringify({query: lastSearchedQuery}),
+            success:function(res){
+                const relArr = res.response
+
+                if(relArr.length){
+                    const $el = $(`.chatMessage[data-id=${id}]`)
+                    const $related = $("<div class='rel-holder'><div class='related-title'>related code search results: </div></div>")
+                    relArr.forEach((el, idx)=>{
+                        var domain = new URL(el.url).hostname.split(".")
+                        if(domain[1].toLowerCase() == "com"){
+                            domain = domain[0]
+                        }
+                        else{
+                            domain = domain[1]
+                        }
+                        $related.append(`<div class="rel-item"><a target="_blank" href="${el.url}" class="rel">${el.title}</a><div class="rel-src">(source: ${domain})</div></div>`)
+                    })
+
+                    $el.append($related)
+		
+                    var objDiv = screen.width > 479 ? $(".chatlog-container")[0] : $(".tab-pane-vscode")[0]
+                    // if(relArr.length > 1){
+                    //     const $showMore = $("<div class='show-rel rel-btn'>Show more...</div>")
+                    //     $showMore.on("click", function(){
+                    //         if($(this).hasClass("show-rel")){
+                    //             $(this).text("Show less...")
+                    //             $el.find(".rel-item.hidden").toggleClass("hidden shown")
+
+                    //             objDiv.scrollTop += $el[0].getBoundingClientRect().top
+                    //         }
+                    //         else{
+                    //             $(this).text("Show more...")
+                    //             $el.find(".rel-item.shown").toggleClass("hidden shown")
+                    //         }
+
+                    //         $(this).toggleClass("show-rel hide-rel")
+                    //     })
+
+                    //     $el.append($showMore)
+                    // }
+
+                    setTimeout(()=>{
+                        objDiv.scrollTop = objDiv.scrollHeight
+                    },10)
+                }
+            }
+        })
+    }
+
+	function addHolder(data){
+		const {id, from, time = null} = data
+		const $holder = $(`<div class="vscode-chartbox chatMessage recieved" data-id='${id}'>
+				<div class="div-block-68 title">
+					<div class="text-block-10">${from}</div>
+				</div>
+				<div class="div-block-68 chat-message text-block-10"></div>
+				<div class="text-block-10 dark bottom-holder"></div>
+			</div>`)
+
+
+		const dateDisplay = getTime(time)
+
+		$holder.find(".bottom-holder").html(`<div class='typing'>blackbox typing<img src='/style/images/loader_three-dots-white.svg' class='typing-loading'></div><div class='date-display'>${dateDisplay}</div>`)
+
+		$(".chat-area").append($holder)
+
+		var languageId = "javascript"
+		// showFeedback($(holder), languageId)
+		var objDiv = screen.width > 479 ? $(".chatlog-container")[0] : $(".tab-pane-vscode")[0]
+		objDiv.scrollTop = objDiv.scrollHeight
+	}
+
+	function getTime(time){
+		var currTime
+		if (!time) {
+			currTime = new Date().getTime()
+		} else currTime = time
+		const setTime = new Date(currTime)
+			
+		var localTime = setTime.toLocaleString("en-US", {
+			hour: "numeric",
+			minute: "numeric",
+			hour12: true
+		})
+		var dateDisplay = setTime.toDateString().split(' ').slice(1,3).join(' ')
+		dateDisplay = dateDisplay+' '+ localTime
+		return dateDisplay
+	}
+
+	var lastPosition = 0;
+	var noScroll = false;
+	$('.chatlog-container').on( "scroll", function(event) {
+		noScroll = false;
+		if (event.target.scrollTop < lastPosition) {
+		noScroll = true;
+		}
+		lastPosition = event.target.scrollTop;
+	} );
+
+	
+	function check_excess_chat_input(allMessages){
+		let string_allMessages = JSON.stringify(allMessages)
+		let is_excess_length = false
+		let cutoff_input_length = 4000
+		if (string_allMessages.length > cutoff_input_length) {
+			is_excess_length=true
+		}
+		return is_excess_length
+	}
+
+	function cutMessageExcess(allMessages) {
+    const rev1 = [...allMessages].reverse();
+    // [{:}]
+    const max = 1800;
+    let currentCount = 0;
+    const results = rev1.reduce((newMsg, current) => {
+      if (currentCount >= max) {
+        return newMsg;
+      }
+      const [key] = Object.keys(current);
+      const currentSize = current[key].length + key.length;
+      const remaining = max - (currentSize + currentCount);
+      if (remaining > 0) {
+        currentCount += currentSize;
+        return [...newMsg, { [key]: current[key] }];
+      }
+      if (remaining < 0) {
+        const rSize = currentSize + remaining;
+        if (!rSize) {
+          return newMsg;
+        }
+        currentCount += rSize;
+        const text = current[key].slice(-(rSize - key.length));
+        return [...newMsg, { [key]: text }];
+      }
+      const rSize = remaining - currentSize;
+      currentCount += remaining;
+      const text = current[key].slice(-(remaining - key.length));
+      return [...newMsg, { [key]: text }];
+    }, []);
+    return results.reverse();
+  }
+	
+	var lastStream = ""
+	let percent_allocated = 50
+	let is_stream = false
+	let random_number = Math.round(Math.random()*100)
+	if (random_number < percent_allocated) is_stream=true
+	if (user.customerId) is_stream = true
+	function getAnswer(data){
+		isAnswerFinished = false;
+		const {message, allMessages, max_iterations, iterations, completed, stream, id, clickedContinue = false} = data
+		let userId = user._id ?? '';
+		requestSuggestions({allMessages, textInput: message, userId });
+		continueObj = data
+		// let is_excess_length = check_excess_chat_input(allMessages)
+		let is_excess_length = false;
+		// const allMessagesChecked = cutMessageExcess(allMessages);
+		const allMessagesChecked = allMessages.slice(-2) 
+
+		//if demo queries are still visible remove
+		if ($('.demo_queries')) $(".demo-queries").remove()
+		
+		
+		//verify language
+		let isEnglish = langDetect(allMessagesChecked)
+		if (isEnglish == false) is_stream = false
+		else is_stream = true
+
+		clearSuggestions() //clear suggestions when trigger a new query
+
+		if (is_stream && is_excess_length == false && is_demo == false && is_url_query == false && webSocket.readyState == 1){
+			full_stream_answer=''
+			stream_complete = false
+			currHolder = $(`.chatMessage[data-id='${id}']`)
+			global_message_id = id
+			let userId = ''
+			if (user._id) userId = user._id
+			if (clickedContinue == true){
+				webSocket.send(JSON.stringify({command: 'continue', content: allMessagesChecked, userId: userId}));
+			}else{
+				webSocket.send(JSON.stringify({command: 'generate', content: allMessagesChecked, userId: userId}));
+			}
+		}else{
+			is_demo = false // reset demo state
+			is_url_query = false
+			try {
+				if (message.includes('<script>') == false){
+					$.ajax({
+						url:"/chat-request-v4",
+						method:"POST",
+						contentType:"application/json",
+						data:JSON.stringify({
+							textInput: message,
+							allMessages,
+							stream,
+							clickedContinue
+						}),
+						success:function(res){
+							const data = res
+							const stream = data.response[0][0]
+							if (data.version) version_update = data.version
+							if(lastStream == stream){
+								hideBeside()
+								// removeTyping({id})
+								continueObj = {}
+								showFeedbackToaster({id})
+								
+								addToAllAnswers(stream)
+								return
+							}
+							formatMessage({...data, id, clickedContinue})
+							if(iterations < max_iterations){
+								if(takeInAnswers){
+									lastStream = stream
+									getAnswer({message, allMessages, max_iterations, iterations: iterations + 1, completed, stream, id})
+								}
+								else{
+									// removeTyping({id})
+								}
+							}
+							else{
+								addToAllAnswers(stream)
+								// removeTyping({id})
+								continueObj.iterations = 0
+								if(stream.length > 950) showContinue()
+								// showContinue()
+								showFeedbackToaster({id})
+								
+							}
+							$(".send-message").focus()
+						},
+					})
+				}
+			} catch (e) {
+				// console.log(e)
+			}
+		}
+	}
+
+	
+	
+	window.addEventListener("message", (event) => {
+		if (event.data.command === 'finished') {
+			isAnswerFinished = true;
+			$('.suggestion-title').show();
+			$('.suggestion-container').show();
+		}
+	});
+	let isSuggestionRunning = false;
+	function requestSuggestions(data) {
+		if (isSuggestionRunning) {
+			return;
+		}
+		
+		isSuggestionRunning = true;
+		const { allMessages, textInput, userId } = data;
+		$.ajax({
+			url: '/chat-suggestions',
+			method: 'POST',
+			contentType: 'application/json',
+			data: JSON.stringify({
+				textInput: allAnswers.at(-1),
+				allMessages: allAnswers,
+				clickedContinue: false,
+			}),
+			success: function (res) {
+				const data = res;
+				if (data.length>0){
+					let $title = $(`
+					<div class="vscode-chartbox right-no-outline no-border suggestion-title">
+						<div class="text-block-10">Here are some follow-up suggestion:</div>
+					</div>
+					`);
+					
+					let wrapper = `
+					<div class="suggestions-wrapper">
+						`
+					
+					const suggestionHtml = data.map(suggestion => `
+					<div class="vscode-chartbox right-no-outline suggestion-text">
+						<div class="text-block-10">${suggestion}</div>
+					</div>
+					`).join('\n');
+					const $suggestions = $(`<div class="suggestion-container">${wrapper}${suggestionHtml}</div></div>`);
+					if (!isAnswerFinished) {
+						$title.hide();
+						$suggestions.hide();
+					}
+					$('.chat-area').append($title);
+					$('.chat-area').append($suggestions);
+					$(document).off("click", ".suggestion-text", handleSuggestionClick);
+					$(document).on("click", ".suggestion-text", handleSuggestionClick);
+					var objDiv = screen.width > 479 ? $(".chatlog-container")[0] : $(".tab-pane-vscode")[0];
+					if (!noScroll) {
+						objDiv.scrollTop = objDiv.scrollHeight;
+					}
+					isSuggestionRunning = false;
+				}
+			},
+		});
+	
+		
+	}
+	function handleSuggestionClick() {
+		let query = $(this).text()
+		if(query){
+			query = query.trimStart().trimEnd()
+			sendMessage({message:query})
+			selection('request followup sugggestion')
+		} 
+	}
+	
+	var currHolder = ""
+	var currType = "string"
+	function showPart(part){
+		if (part.trim() == '<|endoftext|>') {
+			part = ''
+			stream_complete = true
+		}
+		full_stream_answer += part
+		let sep_multi_turn = '</s'
+		if (full_stream_answer.slice(-sep_multi_turn.length) == sep_multi_turn) full_stream_answer = full_stream_answer.slice(0, -sep_multi_turn.length)
+		const $holder = currHolder.find(".chat-message")
+		if(part.trim().startsWith("```")){
+			currType = currType == "code" ? "string" : "code"
+		}
+		
+		var $lastChild = $holder.children().last()
+		if(currType == "string"){
+			if(!$lastChild.length || !$lastChild.hasClass("chat-string")){
+				$lastChild = $("<span class='chat-string'></span>")
+				$holder.append($lastChild)
+				$lastChild.text(part.replace("```", ""))
+			}
+			else{
+				$lastChild.text($lastChild.text()+part)
+			}
+		}
+		else if(currType == "code"){
+			if(!$lastChild.length || !$lastChild.hasClass("code-snippet-holder")){
+				const language = part.replace("```", "")
+				$lastChild = $('<div class="code-snippet-holder"></div>')
+				const $topBar = $('<div class="top-code-bar"><div class="copy-text">Copied!</div><img class="code-copy-img" src="/style/images/copy-btnnn.png"></div>')
+				const $area = $('<textarea class="pre-cm"></textarea>')
+				$lastChild.append($area)
+				$holder.append($lastChild)
+				const cmEditor = CodeMirror.fromTextArea($area[0], {
+					lineNumbers: false,
+					theme:"dracula",
+					mode: getCodeLanguage(language)[0],
+					viewportMargin: Infinity,
+					readOnly:true
+				})
+				$area.remove()
+				setTimeout(()=>{
+					cmEditor.refresh()
+					$lastChild.prepend($topBar)
+				},10)
+				$topBar.on("click", async function(){
+					await navigator.clipboard.writeText(cmEditor.getValue().trim())
+					$(this).find(".copy-text").addClass("active")
+					setTimeout(()=>{
+						$(this).find(".copy-text").removeClass("active")
+					}, 2000)
+				})
+			}
+			else{
+				$lastChild.find(".CodeMirror")[0].CodeMirror.doc.getEditor().replaceRange(part, {line: Infinity})
+			}
+		}
+		var objDiv = screen.width > 479 ? $(".chatlog-container")[0] : $(".tab-pane-vscode")[0]
+		if (!noScroll) {
+			objDiv.scrollTop = objDiv.scrollHeight;
+		}
+	}
+	
+	var cumalativeAnswer = ""
+	async function formatMessage(data){
+		const {response, completed, id, clickedContinue} = data
+		const stream = response[0][0].replace(/[\r\n]{2,}/g, "\n")
+		if(clickedContinue){
+			cumalativeAnswer += stream
+		}
+		else{
+			cumalativeAnswer = stream
+		}
+		const answerArr = []
+		const splitted = cumalativeAnswer.split("```")
+		for (let i = 0; i < splitted.length; i++) { 
+			const part = splitted[i]
+			if(part.trim().length){
+				if(i % 2){
+					// code
+					var language = part.split("\n")[0]
+					var text = part
+					if(language.trim().length){
+						text = part.split("\n").slice(1).join("\n")
+					}
+					else{
+						language = "javascript"
+					}
+
+					answerArr.push({type: "code", text, language})
+				}
+				else {
+					// plain
+					answerArr.push({type: "plain", text: part})
+				}
+			}
+		}
+		receiveStream({ answerArr, type: { confidence: 0 } , completed, id, clickedContinue})
+	}
+
+	function receiveStream(data) {
+        var objDiv = screen.width > 479 ? $(".chatlog-container")[0] : $(".tab-pane-vscode")[0]
+        const scrollToBottom = isScrolledToBottom(objDiv)
+		const {answerArr, from, time = null, type, completed, id, clickedContinue} = data
+		const $parent = $('.chatMessage[data-id='+id+']')
+		let chatMessageText =  $parent.find(".chat-message")[0]
+
+		if(clickedContinue){
+			$(chatMessageText).empty()
+		}
+		var answerType = "plain"
+		if(type && answerArr.length === 1){
+			if(type.confidence > 0.1){
+				answerType = "code"
+			}
+		}
+		var allText = ""
+		answerArr.forEach((answerObj, idx)=>{
+			const str = answerObj.text
+			const type = answerObj.type
+			allText += str + "\n"
+			if(type === "code"){
+				// code
+				const $areaHolder = $('<div class="code-snippet-holder"></div>')
+				const $topBar = $('<div class="top-code-bar"><div class="copy-text">Copied!</div><img class="code-copy-img" src="/style/images/copy-btnnn.png"></div>')
+				const $area = $('<textarea class="pre-cm">'+str+'</textarea>')
+				$areaHolder.append($area)
+				$(chatMessageText).append($areaHolder)
+				const cmEditor = CodeMirror.fromTextArea($area[0], {
+					lineNumbers: false,
+					theme:"dracula",
+					mode: getCodeLanguage(answerObj.language)[0],
+					viewportMargin: Infinity,
+					readOnly:true
+				})
+				$area.remove()
+				setTimeout(()=>{
+					cmEditor.refresh()
+					$areaHolder.prepend($topBar)
+				},10)
+
+				$topBar.on("click", async function(){
+					await navigator.clipboard.writeText(cmEditor.getValue().trim())
+					$(this).find(".copy-text").addClass("active")
+					setTimeout(()=>{
+						$(this).find(".copy-text").removeClass("active")
+					}, 2000)
+				})
+			}
+			else{
+				const strToAdd = getLinksFromString(str)
+				const $spanStr = $("<span class='chat-string'></span>")
+				$spanStr.text(strToAdd)
+				$(chatMessageText).append($spanStr)
+			}
+		})
+		if(scrollToBottom){
+            setTimeout(() => {
+				objDiv.scrollTop = objDiv.scrollHeight
+			}, 10);
+        }
+		if (completed){
+			removeTyping({id})
+			// continueObj = {}
+		}
+	}
+
+	function getLinksFromString(str){
+		const allLinks = str.match(/\[(.*?)\]\((.*)\)/g) || []
+		var strToAdd = str
+		allLinks.forEach((link, idx)=>{
+			var title = link.match(/\[([^\]]+)\]/gm)[0]
+			title = title.substring(1, title.length - 1);
+			var linkHref = link.match(/\((.*?)\)/g)[0]
+			linkHref = linkHref.substring(1, linkHref.length - 1);
+			const element = '<a href="'+linkHref+'" target="_blank">'+title+'</a>'
+			strToAdd = strToAdd.replace(link, element)
+		})
+
+		return strToAdd
+	}
+
+
+	function addToAllAnswers(text){
+		const $chatMessages = $(".chatMessage")
+		const from = "blackbox"
+		lastAnswer = text
+		if(allAnswers[$chatMessages.length - 1]){
+			allAnswers[$chatMessages.length - 1].blackbox = allAnswers[$chatMessages.length - 1].blackbox + "\n"+text
+		}
+		else{
+			allAnswers[$chatMessages.length - 1] = {'blackbox': text}
+		}
+		
+		allAnswers = allAnswers.filter(n => n)
+	}
+
+	function pauseTyping(data){
+		const {id} = data
+		$(".chatMessage[data-id="+id+"]").find(".typing").html("blackbox paused")
+	}
+
+	function continueTyping(data){
+		const {id} = data
+		$(".chatMessage[data-id="+id+"]").find(".typing").css("display", "flex")
+		$(".chatMessage[data-id="+id+"]").find(".typing").html("blackbox typing <img src='/style/images/loader_three-dots-white.svg' class='typing-loading'>")
+	}
+
+	function removeTyping(data){
+		const {id} = data
+		$(".chatMessage[data-id="+id+"]").find(".typing").css("display","none")
+	}
+
+	function showContinue(){
+		hideBeside()
+		$(".continue-btn").addClass("active")
+		var objDiv = screen.width > 479 ? $(".chatlog-container")[0] : $(".tab-pane-vscode")[0]
+		objDiv.scrollTop = objDiv.scrollHeight
+	}
+	function hideBeside(){
+		$(".beside-btn").removeClass("active")
+	}
+
+	function isScrolledToBottom(el) {
+		var $el = $(el);
+		return el.scrollHeight - $el.scrollTop() - $el.outerHeight() < 100;
+	}
+
+	$(".send-message").focus()
+
+	function showLoading(){
+		const $el = $("<div class='code-block-input chatMessage recieved loading-box' style='padding-bottom:0;'><div class='by'>BLACKBOX</div><img src='/style/images/loading-icon.svg' style='width:40px'></div>")
+
+		$(".chat-area").append($el)
+		var objDiv = screen.width > 479 ? $(".chatlog-container")[0] : $(".tab-pane-vscode")[0]
+		objDiv.scrollTop = objDiv.scrollHeight
+	}
+	function hideLoading(){
+		$(".send-message").attr("disabled", false)
+		$(".send-message").focus()
+
+		$(".loading-box").remove()
+	}
+
+	function getCodeLanguage(fileExtension){
+		var language = "javascript"
+		var stringLanguage = language
+		if(fileExtension === "py"){
+			language = "python"
+			stringLanguage = "python"
+		} else if(fileExtension === "ts"){
+			language = "text/typescript"
+			stringLanguage = "typescript"
+		} else if(fileExtension === "html"){
+			language = "htmlmixed"
+			stringLanguage = "html"
+		} else if(fileExtension === "css"){
+			language = "css"
+			stringLanguage = "css"
+		} else if(fileExtension === "php"){
+			language = "php"
+			stringLanguage = "php"
+		} else if (fileExtension === "cs") {
+			language = "text/x-csharp"
+			stringLanguage = "csharp"
+		} else if (fileExtension === "java") {
+			language = "text/x-java"
+			stringLanguage = "java"
+		} else if (fileExtension === "scala") {
+			language = "text/x-scala"
+			stringLanguage = "scala"
+		} else if (fileExtension === "ceylon") {
+			language = "text/x-ceylon"
+			stringLanguage = "java"
+		} else if (fileExtension === "kt" || fileExtension === "kts"){
+			language = "kotlin"
+			stringLanguage = "java"
+		} else if (fileExtension === "cpp" || fileExtension === "c++"){
+			language = "text/x-c++src"
+			stringLanguage = "cpp"
+		}
+		return [language, stringLanguage]
+	}
+
+	function showFeedbackToaster(data){
+		const {id} = data
+		const $holder = $(`.chatMessage[data-id="${id}"]`)
+		if(!$holder.find(".quality-toaster").length){
+			const $el = $('<div class="quality-toaster"><div class="toaster-text">Feedback</div><div class="icons-holder"><img src="/style/images/thumbs-down.png" class="bad-icon toaster-icon"><img src="/style/images/thumbs-up.png" class="good-icon toaster-icon"></div></div>')
+
+			$el.find(".toaster-icon").on("click", function(){
+				var type = '1' // 1 means thumbs up
+				if($(this).hasClass("bad-icon")){
+					type = '-1' // -1 is thumbs down
+				}
+				let userId = ''
+				if (user._id) userId = user._id
+
+				$.ajax({
+					url:"/feedbackChatResult",
+					method:"POST",
+					contentType:"application/json",
+					data:JSON.stringify({feedback: type, query: lastSearchedQuery, result: lastAnswer, userId: userId, version: version_update}),
+					success:function(res){
+						qualityToasterSuccess(id)
+					}
+				})
+			})
+	
+			$el.insertBefore($holder.find(".bottom-holder"))
+			setTimeout(() => {
+				$holder.find(".quality-toaster").addClass("active")
+				var objDiv = screen.width > 479 ? $(".chatlog-container")[0] : $(".tab-pane-vscode")[0]
+				objDiv.scrollTop = objDiv.scrollHeight
+			}, 50);	
+		}
+		$('.suggestion-title').show();
+		$('.suggestion-container').show();
+		window.postMessage({ command: 'finished'});
+	}
+
+	function hideQualityToaster(instant, id){
+		const $holder = $(`.chatMessage[data-id="${id}"]`)
+		var timeToRemove = 1000
+		if(instant){
+			timeToRemove = 0
+		}
+		setTimeout(() => {
+			setTimeout(()=>{$holder.find(".quality-toaster").remove()},300)
+			$holder.find(".quality-toaster").removeClass("active")
+		}, timeToRemove);
+	}
+	function qualityToasterSuccess(id){
+		const $holder = $(`.chatMessage[data-id="${id}"]`)
+		$holder.find(".quality-toaster").find(".toaster-text").text("Thank you!")
+		$holder.find(".quality-toaster").find(".icons-holder").empty()
+		$holder.find(".quality-toaster").find(".icons-holder").append('<img src="/style/images/white-check.png" class="toaster-icon">')
+		hideQualityToaster(false, id)
+	}
+
+	function clearSuggestions(){
+		if ($('.suggestion-title')[0] && $('.suggestion-container')[0]){
+			$('.suggestion-title').remove();
+			$('.suggestion-container').remove();
+		}
+	}
+</script>
+<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-L4CWV4PDGR');
+	gtag('event', 'viewedChat', {});
+	var savedChPos = 0
+	var returnedSuggestion = ""
+	let editor, doc, cursor, line, pos
+	pos = { line: 0, ch: 0 }
+	var suggestionsStatus = false
+	var docLang = "javascript"
+	var suggestionDisplayed = false
+	var isReturningSuggestion = false
+	var codeMirrorEditor
+	setTimeout(() => {
+		codeMirrorEditor = $(".code-embed").find(".CodeMirror")[0].CodeMirror
+		codeMirrorEditor.setOption("extraKeys", {
+			Tab: (cm) => {
+				if (returnedSuggestion) {
+					acceptTab(returnedSuggestion)
+				} else {
+					cm.execCommand("defaultTab")
+				}
+			}
+		})
+		codeMirrorEditor.on("keydown", (cm, event) => {
+			setTimeout(() => {
+				editor = $(".code-embed").find(".CodeMirror")[0]
+				doc = codeMirrorEditor.getDoc()
+				cursor = doc.getCursor()
+				line = doc.getLine(cursor.line)
+				pos = { line: cursor.line, ch: line.length }
+				if (cursor.ch > 0) {
+					savedChPos = cursor.ch
+				}
+				const commentSymbol = returnCommentSymbol(docLang)
+				if (event.key === "Enter" && isReturningSuggestion) {
+					displayGreyAuto("\nBlackbox loading...")
+				} else if (
+					event.key === "Enter" &&
+					!isReturningSuggestion
+				) {
+					var query = doc.getRange(
+						{ line: Math.max(0, cursor.line - 50), ch: 0 },
+						{ line: cursor.line, ch: line.length }
+					)
+					getSuggestionWeb(query)
+					displayGreyAuto("Blackbox loading...")
+				}
+			}, 0)
+		})
+	}, 20)
+	function insert(str, index, value) {
+		return str.substr(0, index) + value + str.substr(index)
+	}
+	function getSuggestionWeb(data) {
+		$.ajax({
+			url: "/suggestv2",
+			method: "POST",
+			contentType: "application/json",
+			data: JSON.stringify({
+				inputCode: data.trim().split("\n").join("\r\n"),
+				source: "web",
+				when: Date.now()/1000.0,
+				languageId: docLang,
+				premium: false,
+				userId: `${Date.now()}`
+			}),
+			success: function (res) {
+				returnedSuggestion = res.response.trim()
+				displayGreyAuto(returnedSuggestion)
+				suggestionDisplayed = true
+			}
+		})
+	}
+
+	function acceptTab(text) {
+		if (suggestionDisplayed) {
+			displayGreyAuto("")
+			setTimeout(() => {
+				doc.replaceRange(text, pos)
+			}, 0);
+			returnedSuggestion = ""
+			suggestionDisplayed = false
+		}
+	}
+
+	function displayGreyAuto(text) {
+		if (!text) {
+			$(".blackbox-suggestion").remove()
+			return
+		}
+		var el = document.querySelector(".blackbox-suggestion")
+		if (!el) {
+			el = document.createElement("span")
+			el.classList.add("blackbox-suggestion")
+			el.style = "color:grey"
+			el.innerText = text
+		} else {
+			el.innerText = text
+		}
+		var lineIndex = pos.line
+		editor
+			.getElementsByClassName("CodeMirror-line")
+			[lineIndex].appendChild(el)
+	}
+	function returnCommentSymbol(language = "javascript") {
+		const languageObject = {
+			bat: "@REM",
+			c: "//",
+			csharp: "//",
+			"c++": "//",
+			closure: ";;",
+			coffeescript: "#",
+			dockercompose: "#",
+			css: "/*DELIMITER*/",
+			"cuda-cpp": "//",
+			dart: "//",
+			diff: "#",
+			dockerfile: "#",
+			fsharp: "//",
+			"git-commit": "//",
+			"git-rebase": "#",
+			go: "//",
+			groovy: "//",
+			kotlin: "//",
+			handlebars: "{{!--DELIMITER--}}",
+			hlsl: "//",
+			html: "<!--DELIMITER-->",
+			ignore: "#",
+			ini: ";",
+			java: "//",
+			javascript: "//",
+			javascriptreact: "//",
+			json: "//",
+			jsonc: "//",
+			julia: "#",
+			latex: "%",
+			less: "//",
+			lua: "--",
+			makefile: "#",
+			markdown: "<!--DELIMITER-->",
+			"objective-c": "//",
+			"objective-cpp": "//",
+			perl: "#",
+			perl6: "#",
+			php: "<!--DELIMITER-->",
+			powershell: "#",
+			properties: ";",
+			jade: "//-",
+			python: "#",
+			r: "#",
+			razor: "<!--DELIMITER-->",
+			restructuredtext: "..",
+			ruby: "#",
+			rust: "//",
+			scss: "//",
+			shaderlab: "//",
+			shellscript: "#",
+			sql: "--",
+			svg: "<!--DELIMITER-->",
+			swift: "//",
+			tex: "%",
+			typescript: "//",
+			typescriptreact: "//",
+			vb: "'",
+			xml: "<!--DELIMITER-->",
+			xsl: "<!--DELIMITER-->",
+			yaml: "#",
+			fortran:"!"
+		}
+		return languageObject[language].split("DELIMITER")
+	}
+
+	//function to read the query from the url and then trigger a search
+	readQuery()
+	function readQuery(){
+		const query = new URLSearchParams(window.location.search)
+		const queryText = query.get('q')
+		if(queryText){
+			is_url_query = true
+			search(queryText)
+			selection('outside query')
+		}
+
+		const videoId = query.get('videoId')
+		if (videoId) displayVideo(videoId)
+	}
+	
+	//function trigger when query parsed form the url
+	function search(queryText){
+		gtag('event', 'codeChat', {});
+		if (queryText.includes('<script>') == false){
+			let encodedStr = queryText.replace(/[\u00A0-\u9999<>\&]/g, function(i) {
+				return '&#'+i.charCodeAt(0)+';';
+			});
+			let question = encodedStr
+			if(question){
+				setTimeout(()=>{
+					$(this).css("height", "")
+				},10)
+				sendMessage({message: question})
+			}
+		}
+	}
+
+	function manageSubscription() {
+        $.ajax({
+            url: window.location.origin + "/stripe-portal",
+            method: "POST",
+            data:JSON.stringify({}),
+            contentType: "application/json",
+            success: function (res) {
+                window.location.href = res.url;
+            }
+        })
+    }
+
+	function open_referral_modal(){
+		$('.modal-background-blur')[0].style.display='block'
+		document.getElementById('referral-code').focus()
+	}
+
+	$(document).on("keydown", ".referral-code", function(e){
+		const key = e.key
+		if(key === "Enter"){
+			let invite_code = $(".referral-code")[0].value
+			$.ajax({
+				url: `/check_referral_code?code=${invite_code}`,
+				method: "GET",
+				contentType: "application/json",
+				success: function (res) {
+					console.log('res: ', res)
+					if (res.status == 'success'){
+						window.location.href=window.location.href
+					}
+				}
+			})
+		}
+	})
+	
+	function copy_invite_link(){
+		$.ajax({
+            url: "/copy_invite_link",
+            method: "GET",
+            contentType: "application/json",
+            success: function (res) {
+                console.log('res: ', res)
+				if (res.status == 'success'){
+					navigator.clipboard.writeText(`${res.invite_id}`)
+					document.execCommand("copy");
+					let original_button_text = document.getElementById('invite-button').innerText
+					document.getElementById('invite-button').innerText = 'Code Copied to Clipboard!'
+					setTimeout(function(){
+						document.getElementById('invite-button').innerText = original_button_text
+					}, 3000)
+				}
+            }
+        })
+	}
+
+	function premium(selected='premiumyearly', payNow = false) {
+        let paynow_param = ''
+        if (payNow) {
+            paynow_param = '&paynow=true'
+        }
+        window.open(`/pricing-checkout?userId=${user._id}&promocode=${selected}${paynow_param}`)
+    }
+
+	function schedule_onboarding(){
+		window.open('https://calendly.com/blackboxapp/30min')	
+	}
+
+	const mobileWidth = 500
+	$(window).resize(() => {
+		var ww = $(this).width(); //full browser width
+		if (document.getElementById('chat-input-new-chat')){
+			if (ww < mobileWidth) document.getElementById('chat-input-new-chat').innerText = '+'
+			else document.getElementById('chat-input-new-chat').innerText = 'New Chat'
+		}
+	});
+
+	if (window.innerWidth < mobileWidth){
+		document.getElementById('chat-input-new-chat').innerText = '+'
+	}
+
+	function selection(selected) {
+      var data = JSON.stringify({selected: selected});
+      var xhr = new XMLHttpRequest();
+      xhr.withCredentials = true;
+      xhr.addEventListener("readystatechange", function() {
+        if(this.readyState === 4) { }
+      });
+      xhr.open("POST", "/selection");
+      xhr.setRequestHeader("Content-Type", "application/json");
+      xhr.send(data);
+    }
+	
+	$(document).on("click", ".demo-query", function(){
+		$(".demo-queries").remove()
+	})
+
+	function formatQueryToString(query){
+		let stringQuery = ''
+		query.forEach(item=>{
+			if (item['user']) stringQuery+=item['user']+'\n'
+			if (item['blackbox']) stringQuery+=item['blackbox']+'\n'
+		})
+		return stringQuery
+	}
+	
+	
+	function langDetect(query){
+		query = formatQueryToString(query)
+		const lngDetector = new LanguageDetect();
+		let isEnglish = false
+		let result = lngDetector.detect(query)
+		const minAccuracyScore = 0.2
+		if (result[0][1] > minAccuracyScore){
+			result.forEach(item=>{
+				if (item[0] == 'english' && item[1] > minAccuracyScore) isEnglish = true
+			})
+		}else{
+			const topNDetected = 5
+			result = result.slice(0, topNDetected)
+			result.forEach(item=>{
+				if (item[0] == 'english') isEnglish = true
+			})
+		}
+		return isEnglish
+	}
+
+</script>
+<script>
+  const fileInput = $('#fileInput');
+  const uploadBtn = $('#upload-btn-event');
+
+  $('.file-custom').on('click', function (e) {
+    fileInput.click();
+  });
+
+  fileInput.on('change', function () {
+    const fileName = $(this).val().split('\\').pop();
+    showImagePreview(URL.createObjectURL(fileInput[0].files[0]))
+  });
+
+  function uploadFileFn(callback) {
+    const file = fileInput[0].files[0];
+    if (!file) {
+      return callback();
+    }
+
+    const formData = new FormData();
+    formData.append('image', file);
+    formData.append('fileName', $('.file-custom').text());
+
+    const url = '/upload';
+    $.ajax({
+      url: url,
+      type: 'POST',
+      data: formData,
+      processData: false,
+      contentType: false,
+      success: callback,
+      error: callback,
+      complete: function () {},
+    });
+
+  }
+
+
+  function showImage(src) {
+    var time = null;
+    var currTime;
+    if (!time) {
+      currTime = new Date().getTime();
+    } else currTime = time;
+    const setTime = new Date(currTime);
+    var localTime = setTime.toLocaleString('en-US', {
+      hour: 'numeric',
+      minute: 'numeric',
+      hour12: true,
+    });
+    var dateDisplay = setTime.toDateString().split(' ').slice(1, 3).join(' ');
+    dateDisplay = dateDisplay + ' ' + localTime;
+    const $img = $(`
+      <div class="vscode-chartbox right-align chatMessage sent">
+        <div class="div-block-68">
+          <img src='${src}' class="uploaded-image" />
+        </div>
+        <div class="text-block-10 dark msg-time"></div>
+      </div>
+    `);
+    $img.find('.msg-time').html(`<div class='date-display'>${dateDisplay}</div>`);
+    $('.chat-area').append($img);
+  }
+  function showImagePreview(src) {
+	if ($('.img-holder')[0] != undefined) $('.img-holder')[0].remove()
+    const $img = $(`
+      <div class="img-holder">
+        <img src='${src}' class="image-bottom-preview">
+		<img loading="lazy" src="/new-chat-images/Close.svg" alt="close" class="remove-image">
+      </div>
+    `);
+    $img.find('.remove-image').on('click', function () {
+      $(this).closest('.img-holder').remove();
+      fileInput.get(0).value = '';
+      $('.image-preview-holder').removeClass('active');
+    });
+    $('.image-preview-holder').append($img);
+    $('.image-preview-holder').addClass('active');
+	$('.demo-queries').remove()
+  }
+</script>
+
+</body></html>
